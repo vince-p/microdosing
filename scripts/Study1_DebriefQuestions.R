@@ -1,5 +1,4 @@
 # Microdosing Experiences
-# 24 Mar 18
 # Vince Polito
 # vince.polito@mq.edu.au
 # 
@@ -8,13 +7,7 @@
 
 pacman::p_load(psych,scales,tidyverse)
 
-
-
 post.debrief<-read_csv("cleandata/postdebrief.csv")
-#post.debrief<-post.debrief[!post.debrief$id %in% read_csv("cleandata/hidose.csv")$id,] ## RUN THIS LINE TO EXCLUDE HIGH DOSES (SEE PAGE 17)
-
-
-
 
 #Confidence in doseages reported
 # 7-point ordinal scale
@@ -31,7 +24,6 @@ describe(post.rescaled)
 
 #Test correlation between meaning3 (change in wellbeing) and post qoli score
 pre.post<-read.csv("cleandata/longterm.csv")
-#pre.post<-pre.post[!pre.post$id %in% read_csv("cleandata/hidose.csv")$id,] ## RUN THIS LINE TO EXCLUDE HIGH DOSES (SEE PAGE 17)
 pre.post<-pre.post[pre.post$Time=="post",]
 cor.test(x=pre.post$QOLI_Raw, y=post.rescaled$Meaning3, use = "complete.obs")
 
