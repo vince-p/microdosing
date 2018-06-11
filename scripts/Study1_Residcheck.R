@@ -1,5 +1,4 @@
 # Microdosing Experiences
-# 24 Mar 18
 # Vince Polito
 # vince.polito@mq.edu.au
 # 
