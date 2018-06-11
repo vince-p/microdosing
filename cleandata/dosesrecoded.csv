@@ -1,0 +1,490 @@
+id,ResponseID,date,substanceGroup,Reporting_Category,md_substance,md_dose,Recoded_Dose
+R_0iJBRrROu8UT93H,R_2xCWwPGtfDPR8Ya,21/10/2016,LSD, LSD ,LSD,10~20 micrograms,15
+R_0iJBRrROu8UT93H,R_3spFLUpErzeYhRn,24/10/2016,LSD, LSD ,lsd,10~20 micrograms,15
+R_0iJBRrROu8UT93H,R_XUlE05bk35bC5zz,9/11/2016,LSD, LSD ,lsd,5~10 micrograms,7.5
+R_0iJBRrROu8UT93H,R_5dUoQiZGX8J72AV,14/11/2016,LSD, LSD ,lsd,4~7 micrograms,5.5
+R_0iJBRrROu8UT93H,R_AGTD90woeJumv7j,17/11/2016,LSD, LSD ,lsd,3~6 micrograms,4.5
+R_0q8r9QIdS3eHDHz,R_9mpZ2MYXQEBRE2d,5/10/2016,Psilocybin, Psilocybin ,hollandia truffles,0.2 grams,0.2
+R_0q8r9QIdS3eHDHz,R_xaAuJIV9WjwqsJH,12/10/2016,Psilocybin, Psilocybin ,hollandia truffles,0.2g,0.2
+R_0q8r9QIdS3eHDHz,R_4Jv2q4z764c9Ffj,15/10/2016,Psilocybin, Psilocybin ,hollandia truffles,0.25g,0.25
+R_0q8r9QIdS3eHDHz,R_RlFJ7wgDaBmnDnr,25/10/2016,Psilocybin, Psilocybin ,Hollandia truffles,0.2 g,0.2
+R_0q8r9QIdS3eHDHz,R_b29XB0QedEsjkHL,5/11/2016,Psilocybin, Psilocybin ,hollandia truffles,0.23g,0.23
+R_0q8r9QIdS3eHDHz,R_1QrvRlGS33CEtCj,10/11/2016,Psilocybin, Psilocybin ,hollandia truffles,0.35g,0.35
+R_11YHdDvAT13PKo7,R_2xyGBylzwlRzg8I,17/11/2016,Psilocybin, Psilocybin ,Psilocybe cyanescense,.1g,0.1
+R_11YHdDvAT13PKo7,R_ujE2X6mbwRCWv9T,20/11/2016,Psilocybin, Psilocybin ,Psilcybe Cyanescents,.1g dried,0.1
+R_11YHdDvAT13PKo7,R_C8gQi9A90Mc76BX,23/11/2016,Psilocybin, Psilocybin ,Psilocybe Cyanesence,.14g,0.14
+R_11YHdDvAT13PKo7,R_21cTDaLZxjsMqOD,4/12/2016,Psilocybin, Psilocybin ,Psilocybe cyanescens,.12 gram,0.12
+R_11YHdDvAT13PKo7,R_3h4QjwjtamXJinH,11/12/2016,Psilocybin, Psilocybin ,Psilocybe Cyanescens,.13 gram,0.13
+R_11YHdDvAT13PKo7,R_1In3mKAKdToz3Md,22/12/2016,Psilocybin, Psilocybin ,Psilocybe cyanescens,.17 gm,0.17
+R_12eZn8DWZnYuhdJ,R_216dhwe31j139yU,29/08/2016,Psilocybin, Psilocybin ,Psilocybin,Difficult to be entirely precise but approx 1/10th,0.1
+R_12sBNGfiNQMIWea,R_ugGZe7Sgl3sKVdn,8/08/2016,LSD, LSD ,LSD,~12ug,12
+R_12sBNGfiNQMIWea,R_W6WknFymxY3c2Ih,11/08/2016,LSD, LSD ,LSD,9ug,9
+R_12sBNGfiNQMIWea,R_2ci8muJh7XZ98XD,15/08/2016,LSD, LSD ,Lsd,7.5ug,7.5
+R_12sBNGfiNQMIWea,R_1LLFCV8pBU7QJev,25/08/2016,LSD, LSD ,Lsd,6.5ug,6.5
+R_12sBNGfiNQMIWea,R_6J1yRMGbPUKPLNL,5/09/2016,LSD, LSD ,Lsd,6.5ug,6.5
+R_12sBNGfiNQMIWea,R_xsfwBPbjCGkMySR,11/09/2016,LSD, LSD ,Lsd,5.5ug,5.5
+R_12sBNGfiNQMIWea,R_1Dp45TDqBCqZxfP,16/09/2016,LSD, LSD ,Lsd,5.5,5.5
+R_1ClGL1Df2ociJAa,R_80rYdF8sNEauKrv,19/08/2016,Psilocybin, Psilocybin ,Truffles,.2g,0.2
+R_1DVklE8EAtMmYIZ,R_1LFIsKFx9u3oZjQ,18/08/2016,LSD, LSD ,LSD,20µg,20
+R_1DVklE8EAtMmYIZ,R_2QfkszB6GrsVOaE,20/08/2016,LSD, LSD ,LSD,15µg,15
+R_1DVklE8EAtMmYIZ,R_e3XksGDzvvmaTND,27/08/2016,LSD, LSD ,LSD,15µg,15
+R_1DVklE8EAtMmYIZ,R_1F9rbQ5Pfxp6Mxl,30/08/2016,LSD, LSD ,LSD,15µg,15
+R_1etrbo9PVWIckqO,R_1poN0PMItvAP6Ub,4/06/2016,Psilocybin, Psilocybin ,psylocybin,half a gram,0.5
+R_1etrbo9PVWIckqO,R_3I6Nl5Isjqeorkg,8/06/2016,Psilocybin, Psilocybin ,psylocybin,half a gram,0.5
+R_1etrbo9PVWIckqO,R_3dFzP4ZDzKh8xGK,21/06/2016,Psilocybin, Psilocybin ,psylocybin,half a gram,0.5
+R_1Fmj61l10THfKht,R_1qe74smVCqQWoOf,11/10/2016,LSD, LSD ,LSD,10ug(micrograms),10
+R_1Fmj61l10THfKht,R_0SRV8CkORZHJ2yB,13/10/2016,LSD, LSD ,LSD,10ug,10
+R_1Fmj61l10THfKht,R_3CPYgK7nYY60Z2J,16/10/2016,LSD, LSD ,LSD,10ug,10
+R_1Fmj61l10THfKht,R_2znMgVUUSJ4eE6E,21/10/2016,LSD, LSD ,LSD,10ug,10
+R_1Fmj61l10THfKht,R_2uKvtPyQITMqvWV,27/10/2016,LSD, LSD ,LSD,10ug,10
+R_1Fmj61l10THfKht,R_28OMcdGRRvRLkig,7/11/2016,Psilocybin, Psilocybin ,Psilocybin,Approximately 0.5g,0.5
+R_1gHGXF1nrtLiD2e,R_1NDlmSdFt52bCjT,26/09/2016,Psilocybin, Psilocybin ,Psilocybe cubensis,0.3 grams,0.3
+R_1gHGXF1nrtLiD2e,R_eo3vVs4PhmNCktr,2/10/2016,Psilocybin, Psilocybin ,Psilocybin,.3 g,0.3
+R_1gHGXF1nrtLiD2e,R_2TFaq9XuvWdpdgD,9/10/2016,Psilocybin, Psilocybin ,Psilocybin,.3 g,0.3
+R_1gHGXF1nrtLiD2e,R_1P2luMlQIf90m2T,10/10/2016,Psilocybin, Psilocybin ,psilocybin,0.3,0.3
+R_1gHGXF1nrtLiD2e,R_3KSGHX6TyMbx2jm,12/10/2016,Psilocybin, Psilocybin ,psilocybin,0.3 g,0.3
+R_1gHGXF1nrtLiD2e,R_QaidLbZNOpGaKid,19/10/2016,Psilocybin, Psilocybin ,psilocybin,0.3 g,0.3
+R_1go2MbpFpcIdvk4,R_1l4y6JC4eaDwz0U,23/08/2016,Psilocybin, Psilocybin ,Psilocybin,.3 grams,0.3
+R_1go2MbpFpcIdvk4,R_6P4fn4i0khCRDxv,28/08/2016,Psilocybin, Psilocybin ,Psilocybin,. 3 grams,0.3
+R_1go2MbpFpcIdvk4,R_2i6cMJaaM4V1Oal,4/09/2016,Psilocybin, Psilocybin ,Psilocybin,. 3 grams,0.3
+R_1go2MbpFpcIdvk4,R_2PoLZyjyriBying,11/09/2016,Psilocybin, Psilocybin ,. Psilocybin,. 3 grams,0.3
+R_1go2MbpFpcIdvk4,R_1JKkxvHzMDwuTbW,14/09/2016,Psilocybin, Psilocybin ,Psilocybin,.3 grams,0.3
+R_1go2MbpFpcIdvk4,R_2ygByfygElfIDvN,20/09/2016,Psilocybin, Psilocybin ,Psilocybin,.3 grams,0.3
+R_1go2MbpFpcIdvk4,R_3L5wdTDMFUCWnXr,27/09/2016,Psilocybin, Psilocybin ,Psilocybin,.3 grams,0.3
+R_1gOVLSrXtOA3OD6,R_3psz6X9TmEo5dpc,19/08/2016,LSD, LSD ,LSD,13 micrograms,13
+R_1gOVLSrXtOA3OD6,R_1LvtfqUj4bFkoob,22/08/2016,LSD, LSD ,Lsd,10 - 13 micrograms,11.5
+R_1gOVLSrXtOA3OD6,R_syVpEVKASVBoXeh,19/09/2016,LSD, LSD ,1p-lsd,13micrograms,13
+R_1gOVLSrXtOA3OD6,R_43c8PCuYXWKEVTv,22/09/2016,LSD, LSD ,Lsd,13 micrograms,13
+R_1gOVLSrXtOA3OD6,R_OlKse4r9XZibRxn,27/09/2016,LSD, LSD ,Lsd,13 micrograms,13
+R_1iaImvUX5POGI3c,R_1FmPf0QHoh0TQvU,22/11/2016,LSD, LSD ,LSD,3 micrograms (estimate),3
+R_1iaImvUX5POGI3c,R_1F95IEDUQCUv5Uh,2/12/2016,LSD, LSD ,LSD,2 micrograms,2
+R_1iaImvUX5POGI3c,R_3IXEpUJLHMYZv4y,5/12/2016,LSD, LSD ,LSD,2 micrograms,2
+R_1iaImvUX5POGI3c,R_2VpCGJVr6kApdFo,9/12/2016,LSD, LSD ,LSD,2 micgrograms,2
+R_1iaImvUX5POGI3c,R_unb8Ft1Q4B0MgBX,16/12/2016,LSD, LSD ,LSD,3 micrograms,3
+R_1IAUAXf9Tm3MI0g,R_3hyZB7V7vRswIgW,2/09/2016,LSD, LSD ,LSD,25-35ug,30
+R_1IAUAXf9Tm3MI0g,R_1jBbyyQ65cHZdul,25/09/2016,Psilocybin, Psilocybin ,Psilocybin mushrooms,~0.5 g,0.5
+R_1jMIHYTuU2qcV2W,R_2ARnvLrVX5TvomN,3/10/2016,Psilocybin, Psilocybin ,Psilocybe subaeruginosa,0.08g,0.08
+R_1jMIHYTuU2qcV2W,R_BXpAUJT2dVAIpZD,5/10/2016,Psilocybin, Psilocybin ,Psilocybe subaeruginosa,0.1,0.1
+R_1jMIHYTuU2qcV2W,R_3kO39Vmri2GUZ71,13/10/2016,Psilocybin, Psilocybin ,Psilocybe subaeruginosa,0.10g,0.1
+R_1jMIHYTuU2qcV2W,R_xF1oP40hA4XCtdT,14/10/2016,Psilocybin, Psilocybin ,Psilocybe subaeruginosa,0.10g,0.1
+R_1jMIHYTuU2qcV2W,R_esVR6DhkMTS1q5X,27/10/2016,Psilocybin, Psilocybin ,Psilocybe subaeruginosa,0.10g,0.1
+R_1jMIHYTuU2qcV2W,R_vT7iu0Q9BlOMAx3,5/11/2016,Psilocybin, Psilocybin ,Psilocybe subaerginosa,0.10g,0.1
+R_1MQI6YXuUmZ5iNZ,R_1Qz7ZulP2wFvi40,11/03/2017,Mescaline, Mescaline (Synthetic) ,escaline,10mg,10
+R_1MQI6YXuUmZ5iNZ,R_3DpfkXMBdfb44GY,12/03/2017,Mescaline, Mescaline (Synthetic) ,escaline,10mg,10
+R_1MQI6YXuUmZ5iNZ,R_1IsZcbi2npX3YEV,20/03/2017,NovelSerotenergic, 2C-C ,2c-c,50mg,50
+R_1MQI6YXuUmZ5iNZ,R_2ZKy067MgIE7CAT,29/03/2017,LSD, LSD ,1p lsd,25ug,25
+R_1MQI6YXuUmZ5iNZ,R_2RPnu8YPIWOfq6o,13/04/2017,NovelSerotenergic, 2C-E ,2c-e,3mg,3
+R_1OqWSQoLxN9A3Cc,R_xFxlpl1sU2KEf2V,29/08/2016,LSD, LSD ,LSD,0.25,25
+R_1OqWSQoLxN9A3Cc,R_1pJt8Ged3qSUe4V,1/09/2016,LSD, LSD ,LSD,0.15,15
+R_1OqWSQoLxN9A3Cc,R_pubALsi7OcZugff,6/09/2016,LSD, LSD ,LSD,0.15,15
+R_1pyRsjWCEGUdqTF,R_2xyHoSmVAX9MKLm,21/09/2016,LSD, LSD ,LSD,3mg,3
+R_1pyRsjWCEGUdqTF,R_zbVcSX0pqhhKPFn,24/09/2016,LSD, LSD ,lsd,5 micro grams,5
+R_1QnkLLvMChDtsWt,R_ODaW3pGd7YfBMFr,21/12/2016,Psilocybin, Psilocybin ,Psilocybin,,
+R_1rwScs6fIC9OwFt,R_2WPvTgEEddLTF1d,17/02/2017,LSD, LSD ,LSD,5 ug,5
+R_1rwScs6fIC9OwFt,R_zegjlAPDLdyHjDH,19/02/2017,LSD, LSD ,LSD,5 ug,5
+R_1rwScs6fIC9OwFt,R_2AZ0H69Ioc0CdHI,20/02/2017,LSD, LSD ,LSD,5 ug,5
+R_1rwScs6fIC9OwFt,R_2yqrVQ7im1jorom,25/02/2017,LSD, LSD ,LSD,5 ug,5
+R_1rwScs6fIC9OwFt,R_231Z1GXjMpxLjR0,26/02/2017,LSD, LSD ,LSD,3 ug,3
+R_1rwScs6fIC9OwFt,R_ahD7Ibz1QjrCWUV,3/03/2017,LSD, LSD ,LSD,5 ug,5
+R_1rwScs6fIC9OwFt,R_3KTOLOwGR4H5lLI,8/03/2017,LSD, LSD ,LSD,3 ug,3
+R_1rwScs6fIC9OwFt,R_2veUR7PvJpwobbG,13/03/2017,LSD, LSD ,LSD,"2,5 ug",2.5
+R_1rwScs6fIC9OwFt,R_2ab3zFHRdHfyAK5,15/03/2017,LSD, LSD ,LSD,"2,5 ug",2.5
+R_1rwScs6fIC9OwFt,R_2uDXxcwmcnKXu2R,19/03/2017,LSD, LSD ,LSD,4 ug,4
+R_210WC6F78wZpGd6,R_1i2RuSZ8L7pSIjg,13/11/2016,Psilocybin, Psilocybin ,Psilocybin Mushrooms,0.22g,0.22
+R_210WC6F78wZpGd6,R_T5HUtO3aPMCZYtz,16/11/2016,Psilocybin, Psilocybin ,Psilocybin Mushrooms,0.15 grams,0.15
+R_210WC6F78wZpGd6,R_1dKOhaBFlvFg56d,19/11/2016,Psilocybin, Psilocybin ,Psilocybin Mushrooms,0.18grams,0.18
+R_210WC6F78wZpGd6,R_3noYU3fasmIOUOp,22/11/2016,Psilocybin, Psilocybin ,Psychedelic Mushrooms,0.12 grams,0.12
+R_210WC6F78wZpGd6,R_1jNCH3YJmgyfdSx,26/11/2016,Psilocybin, Psilocybin ,Psylocybin Mushroom,0.6 grams but split over the day starting with 0.15 for most of the day,0.15
+R_24NVxFLiVg9hyw5,R_1LiYP55BJcXsFvl,3/03/2017,4-HO-MET,4-HO-MET,Syrian rue and 4-HO-MET,"One gram and 1 milligram, respectively",1
+R_24NVxFLiVg9hyw5,R_248EJ8Tf9HsYNad,5/03/2017,NovelSerotenergic, 4-HO-MET ,4-HO-MET,6 mg,6
+R_24NVxFLiVg9hyw5,R_r3yIAnAPqhwUNTr,7/03/2017,LSD, LSD ,LSD,1/4 of a blotter (~25 mg),6.25
+R_24NVxFLiVg9hyw5,R_2anvgQmPU5Mbaav,11/03/2017,NovelSerotenergic, 4-HO-MET ,4-HO-MET,5 mg,5
+R_24NVxFLiVg9hyw5,R_3gZ8DxKIc8wqBej,13/03/2017,NovelSerotenergic, 4-HO-MET ,4-HO-MET,5 mg,5
+R_24NVxFLiVg9hyw5,R_1KdtKmXn5HEgamk,19/03/2017,4-HO-MET,4-HO-MET,4-HO-MET and MDMA,"3 mg and 20 mg, respectively",3
+R_24NVxFLiVg9hyw5,R_3dYTwbLkVQ1tj1f,8/04/2017,NovelSerotenergic, 2C-D ,2C-D,5mg,5
+R_25AfhxVgajmDuwh,R_2c8GYSrVf96KMtm,3/10/2016,Psilocybin, Psilocybin ,Psilocybin Mushrooms,0.05g,0.05
+R_25AfhxVgajmDuwh,R_3pukVps4QGCAa2U,17/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.06g,0.06
+R_25AfhxVgajmDuwh,R_0oicXs9an7yIEKx,31/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.09,0.09
+R_25FS6pq4gbKRDTT,R_2CeNo6KNxzOkIMM,1/10/2016,LSD, LSD ,LSD,.25mg,25
+R_25FS6pq4gbKRDTT,R_56LgIie9fg9Ccal,2/10/2016,LSD, LSD ,LSD,.25mg,25
+R_25FS6pq4gbKRDTT,R_w5iWIKmlWRvTP3P,5/10/2016,LSD, LSD ,LSD,.25mg,25
+R_25FS6pq4gbKRDTT,R_0MTuO5HfccTIPyV,10/10/2016,LSD, LSD ,LSD,.25mg,25
+R_25FS6pq4gbKRDTT,R_2ALwwWxVtMdqiSq,16/10/2016,LSD, LSD ,LSD,.25mg,25
+R_25FS6pq4gbKRDTT,R_3RlmAnOd70pwGSL,18/10/2016,LSD, LSD ,LSD,.25mg,25
+R_25FS6pq4gbKRDTT,R_1FCDPbJGmhgs7Y2,19/10/2016,LSD, LSD ,LSD,.25mg,25
+R_25FS6pq4gbKRDTT,R_Deo8TnClD1HKJC9,20/10/2016,LSD, LSD ,LSD,.0.25mg,25
+R_25FS6pq4gbKRDTT,R_1oBhdUfEgP01hyu,25/10/2016,LSD, LSD ,LSD,.25mg,25
+R_27DKOds8Rc4jNv8,R_6KIOZQP4ewr7P6p,23/02/2017,LSD, LSD ,Lsd,30,30
+R_27DKOds8Rc4jNv8,R_3Jaule0pbteEjBb,1/03/2017,LSD, LSD ,Lsd,25,25
+R_27DKOds8Rc4jNv8,R_z7jMPSFP0F474IN,4/03/2017,LSD, LSD ,Lsd,20,20
+R_27DKOds8Rc4jNv8,R_24nRAc79SyoDxzI,7/03/2017,LSD, LSD ,Lsd,30,30
+R_27DKOds8Rc4jNv8,R_3imLz6ValgY24GU,17/03/2017,LSD, LSD ,lsd,30mg,30
+R_27DKOds8Rc4jNv8,R_3HZGdjQrITFzfyu,20/03/2017,LSD, LSD ,Lsd,20 mg,20
+R_27DKOds8Rc4jNv8,R_325eYrHMCqbmfRP,22/03/2017,LSD, LSD ,Lsd,29mg,29
+R_27vfJqUUYolvca9,R_2WOnXXnkCToGiOY,12/10/2016,LSD, LSD ,LSD,14.2 micrograms,14.2
+R_27vfJqUUYolvca9,R_3HitSPQ7TK4taZ5,14/10/2016,LSD, LSD ,LSD,14.2 micrograms,14.2
+R_27vfJqUUYolvca9,R_294Xssg8rhnbvJs,19/10/2016,LSD, LSD ,LSD,14.2 micrograms,14.2
+R_27vfJqUUYolvca9,R_wZEMAvJFb82uN8J,23/10/2016,LSD, LSD ,LSD,1.42 micrograms,1.42
+R_27vfJqUUYolvca9,R_xDEAjdiLa9MUT9D,24/10/2016,LSD, LSD ,LSD,14.2 micrograms,14.2
+R_27vfJqUUYolvca9,R_1GymO389cTNSaNM,26/10/2016,LSD, LSD ,LSD,14.2 micrograms,14.2
+R_27vfJqUUYolvca9,R_3hm9Du1OACZYeG1,30/10/2016,LSD, LSD ,LSD,14.2 micrograms,14.2
+R_27vfJqUUYolvca9,R_2fIlx7GUNOgLqkE,31/10/2016,LSD, LSD ,lsd,14.2 micrograms,14.2
+R_27vfJqUUYolvca9,R_3KSDdRVJo07O0ZJ,2/11/2016,LSD, LSD ,LSD,14.2 micrograms,14.2
+R_27vfJqUUYolvca9,R_2CoUSyA7Ubaq2yU,5/11/2016,LSD, LSD ,LSD,14.2 micrograms,14.2
+R_27vfJqUUYolvca9,R_3Oe84C5C9gxYWQx,6/11/2016,LSD, LSD ,LSD,14.2 micrograms,14.2
+R_27vfJqUUYolvca9,R_WBSdeqjP3HegkYV,14/11/2016,LSD, LSD ,LSD,`14.2 micrograms,14.2
+R_29t84WsIkVxauh5,R_1rxHeU40w4ONbSB,24/02/2017,LSD, LSD ,LSD,25ug,25
+R_29t84WsIkVxauh5,R_2eQlfAHsxkYei3N,25/02/2017,LSD, LSD ,LSD,10ug,10
+R_29t84WsIkVxauh5,R_XnywPQZPhlG2DJv,3/03/2017,LSD, LSD ,LSD,20ug,20
+R_29t84WsIkVxauh5,R_wNtvMfekWplBmLf,11/03/2017,LSD, LSD ,Lsd,10 ug,10
+R_29t84WsIkVxauh5,R_1jct96932oESoj5,13/03/2017,LSD, LSD ,Lsd,10ug,10
+R_29t84WsIkVxauh5,R_2Vrt8U1if5QMY1g,26/03/2017,LSD, LSD ,LSD,10ug,10
+R_2dFwtz9xaUfHZVL,R_sLphCSRzssqsF7X,17/01/2017,Psilocybin, Psilocybin ,Psilocybin,~0.1g of Copelandia cyanacens,0.1
+R_2dFwtz9xaUfHZVL,R_1GTyjsUDuTi6bxl,22/01/2017,Psilocybin, Psilocybin ,Psilocybin,0.07g Copelandia cyanescens,0.07
+R_2dFwtz9xaUfHZVL,R_2zekvOBp8LZe9NI,23/01/2017,Psilocybin, Psilocybin ,psilocybin,0.1g Copelandia cubensis,0.1
+R_2EgzOUJ3zPMCEXF,R_Ayxj7T5Y89ftTPP,15/10/2016,LSD, LSD ,Lsd,20 mcg,20
+R_2EgzOUJ3zPMCEXF,R_22YvMqZLt4QWrKw,18/10/2016,LSD, LSD ,lsd,10mcg,10
+R_2EgzOUJ3zPMCEXF,R_9Y0zEQmgehIF91n,22/10/2016,LSD, LSD ,Lsd,20,20
+R_2ePT4wLLfcQxYL9,R_2TuWipNmNAnnTG9,9/09/2016,LSD, LSD ,LSD,Approx. 15ug,15
+R_2eXBlQcLGGWWw9G,R_3jdFNnqcusc6B6X,29/01/2017,Psilocybin, Psilocybin ,Psilocybin,.10grams,0.1
+R_2eXBlQcLGGWWw9G,R_2SABWV9E3pWt1vL,31/01/2017,Psilocybin, Psilocybin ,Psilocybin,.10g,0.1
+R_2eXBlQcLGGWWw9G,R_ub8wEF33uNb3VNn,9/02/2017,Psilocybin, Psilocybin ,Psilocybin,.10g,0.1
+R_2eXBlQcLGGWWw9G,R_rcqz1kknYeBqtUd,17/02/2017,Psilocybin, Psilocybin ,Psilocybin,.10g,0.1
+R_2eXBlQcLGGWWw9G,R_2cbAQuGKa5KWek1,19/02/2017,Psilocybin, Psilocybin ,Psilocybin,.10g,0.1
+R_2eXBlQcLGGWWw9G,R_3EA675KmmK59AWp,23/02/2017,Psilocybin, Psilocybin ,Psilocybin,.10g,0.1
+R_2eXBlQcLGGWWw9G,R_2rjbmnXMR0w1pWD,3/03/2017,Psilocybin, Psilocybin ,Psilocybin,.10g,0.1
+R_2R3d6ad4sACVhG5,R_2YzZXmIHpUOt5fp,26/08/2016,Psilocybin, Psilocybin ,Psilocybin cyanescens,"0,15g",0.15
+R_2R3d6ad4sACVhG5,R_2PtF5OFAV9SU4qz,11/09/2016,Psilocybin, Psilocybin ,Psilocybin,"0,3g",0.3
+R_2R83gy89GxDMEv7,R_1LUbDKCQnIuLEwG,15/11/2016,Psilocybin, Psilocybin ,psilocybin Truffles (fresh),1.5g,1.5
+R_2R83gy89GxDMEv7,R_D1VzSwQBCFJyZIl,18/11/2016,Psilocybin, Psilocybin ,psilocybin truffles,0.8g dry,0.8
+R_2R83gy89GxDMEv7,R_r9Fz6yEGXCwKWo9,20/11/2016,Psilocybin, Psilocybin ,Psilocybin truffles dried,5g,5
+R_2R83gy89GxDMEv7,R_1jeSmI1ukMWd05n,9/12/2016,Psilocybin, Psilocybin ,Psilocybin truffles,<1g,0.9
+R_2rkCpgPRsS7Wouu,R_1mr6Wbl0D9rQWFo,18/08/2016,LSD, LSD ,LSD,approx. 5 mcg,5
+R_2rkCpgPRsS7Wouu,R_1DM9jHgLmo7PZVk,23/08/2016,LSD, LSD ,LSD,10 mcg,10
+R_2rkCpgPRsS7Wouu,R_2BbAe0E0W1VdAyg,2/09/2016,LSD, LSD ,LSD,25 mcg,25
+R_2rrulOc4uH1R7fP,R_2QsPdCSvNpufZxr,30/01/2017,LSD, LSD ,LSD,20 mic,20
+R_2S69xG8bXmfiSzG,R_3Mtch5ACEHAepA9,29/08/2016,LSD, LSD ,LSD,25ug,25
+R_2S69xG8bXmfiSzG,R_6FE6CPi4bvY5ui5,1/09/2016,LSD, LSD ,LSD,25ug,25
+R_2SdJVs4p09ueGhN,R_2sRb2G7Q5mRJv0c,23/11/2016,LSD, LSD ,LSD,20mcg,20
+R_2v0UU6wC63di1t6,R_Y9VQsAO5LTZYtTX,27/09/2016,LSD, LSD ,1P-LSD,± 10 microgram,10
+R_2v0UU6wC63di1t6,R_1GKpY6O2ApPRUzy,11/10/2016,LSD, LSD ,1P-LSD,±10-15 microgram,12.5
+R_2v0UU6wC63di1t6,R_3fwJxjarz530cj4,3/11/2016,LSD, LSD ,1-LSD,±10 microgram,10
+R_2vjq9nrYnsLRaBp,R_1IHtAe7hjTyi4UT,27/08/2016,LSD, LSD ,LSD,12mcg,12
+R_2vjq9nrYnsLRaBp,R_svtMAhJVGgoDkUF,30/08/2016,LSD, LSD ,LSD,15mcg,15
+R_2vjq9nrYnsLRaBp,R_1N4cogEKi8Xm6p0,3/09/2016,LSD, LSD ,LSD,12mcg,12
+R_2vjq9nrYnsLRaBp,R_3OpIpXMsBJkQoI7,8/09/2016,LSD, LSD ,LSD,14 mcg,14
+R_2vjq9nrYnsLRaBp,R_5APM3fxd2dnfCKZ,13/09/2016,LSD, LSD ,LSD,15mcg,15
+R_2vjq9nrYnsLRaBp,R_22tOKs14atVbsah,17/09/2016,LSD, LSD ,LSD,12mcg,12
+R_2vjq9nrYnsLRaBp,R_3ndY06A2Wp4F0ye,24/09/2016,LSD, LSD ,LSD,10mcg,10
+R_2wMEmxNSMnN5JFW,R_2uxmmN44NyRqxBI,23/09/2016,Psilocybin, Psilocybin ,psilocybin,0.5g of dried mushrooms,0.5
+R_2wMEmxNSMnN5JFW,R_2wABFnqKttiYJZT,26/09/2016,Psilocybin, Psilocybin ,psilocybin,0.6 g of dried mushrooms,0.6
+R_2wMEmxNSMnN5JFW,R_pQr9BbO2W1FMPtf,3/10/2016,Psilocybin, Psilocybin ,pislisobyn,1.3g of dried mushrooms,1.3
+R_2wMEmxNSMnN5JFW,R_CdcWSXImzG8WXpD,6/10/2016,Psilocybin, Psilocybin ,psilocybin,0.54g of dried mushrooms,0.54
+R_2wMEmxNSMnN5JFW,R_8CUugeqR2GY0xSV,8/10/2016,Psilocybin, Psilocybin ,psilocybin,1.2g,1.2
+R_2wMEmxNSMnN5JFW,R_1r8EeCUgXziDzhQ,11/10/2016,Psilocybin, Psilocybin ,psilocybin,0.6g of dried mushrooms,0.6
+R_2wMEmxNSMnN5JFW,R_1hEY6GOANC5ovxV,19/10/2016,Psilocybin, Psilocybin ,Pislocybin,0.6g dried,0.6
+R_2wMEmxNSMnN5JFW,R_51oPHi9Jn7X2QmJ,23/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.6g dried mushrooms,0.6
+R_2wR02alhzV7MswQ,R_ODOyJnp9Nf543xT,6/02/2017,LSD, LSD ,LSD,15ug,15
+R_2wR02alhzV7MswQ,R_1kUqefxxziPltgt,9/02/2017,LSD, LSD ,LSD,15ug,15
+R_2wR02alhzV7MswQ,R_3Pj16mnaJFxLR61,21/02/2017,LSD, LSD ,LSD,15ug,15
+R_2wR02alhzV7MswQ,R_129jQyC8GLMprm6,8/03/2017,LSD, LSD ,LSD,10ug,10
+R_2wR02alhzV7MswQ,R_1IsoDXhrE5sXbyz,14/03/2017,LSD, LSD ,LSD,10ug,10
+R_2wR02alhzV7MswQ,R_2AQpONng2uulb8u,17/03/2017,LSD, LSD ,LSD,15ug,15
+R_2YWlEqvXfQh9jvz,R_3HkxmmJtUboLBRg,25/09/2016,Psilocybin, Psilocybin ,Psilocybe Cubensis,0.3,0.3
+R_2YWlEqvXfQh9jvz,R_31QrAYfgweWmMsQ,17/10/2016,Psilocybin, Psilocybin ,Psilocybe cubensis,0.2,0.2
+R_31cop5OHJImKlTX,R_3qp8a89t7BuoARH,21/08/2016,LSD, LSD ,LSD,45,45
+R_31MJxqGRMtTu16g,R_3eaErLNtw3FDEdl,5/11/2016,Psilocybin, Psilocybin ,Mushrooms,1 tiny Mexican mushroom,0.1
+R_31MJxqGRMtTu16g,R_1mqpviy7w7E14s0,8/11/2016,Psilocybin, Psilocybin ,mushrooms,1/2 medium mexican,0.25
+R_31MJxqGRMtTu16g,R_1riZxQLC8iTI2xH,16/11/2016,Psilocybin, Psilocybin ,Mushrooms,1/2 small mushroom,0.1
+R_31MJxqGRMtTu16g,R_3nqtgwvQqOd0Wio,21/11/2016,Psilocybin, Psilocybin ,Mushroom,1/2 medium mushroom,0.25
+R_31MJxqGRMtTu16g,R_3Ho8XbyIipTMG88,29/11/2016,Psilocybin, Psilocybin ,Mushrooms,Small mushroom,0.1
+R_31MJxqGRMtTu16g,R_3QFX1Vd5Jt1lBhp,5/12/2016,Psilocybin, Psilocybin ,mushrooms,small mushroom,0.1
+R_3CDWoxDi35ko6py,R_1ON9aJK7JaHxwIA,22/11/2016,Psilocybin, Psilocybin ,psilocybin mushroom,0.27 grams,0.27
+R_3CDWoxDi35ko6py,R_1OHaEpcMNKThs4N,26/11/2016,Psilocybin, Psilocybin ,psilocybin mushroom,0.24 grams,0.24
+R_3fUYOTcH3Rwi0g4,R_9KVI63Y2xOJl88p,17/02/2017,LSD, LSD ,LSD,20ug,20
+R_3fw6g8rMAXHiKRm,R_2PptQt3bGTiZxwa,12/12/2016,LSD, LSD ,LSD-25,15ug,15
+R_3fw6g8rMAXHiKRm,R_3j71Sqwp8AltEqJ,15/12/2016,LSD, LSD ,LSD,~10ug,10
+R_3Gm1WLoyl4xHI6L,R_1QcHJNotI8CHgOp,22/10/2016,LSD, LSD ,LSD,quarter of a tab. little less,25
+R_3h9Bil3M8nTbb4R,R_yvzi8nD1B1ZofTj,3/10/2016,LSD, LSD ,LSD,~3ug,3
+R_3h9Bil3M8nTbb4R,R_1osScGcqTdQBoKw,6/10/2016,LSD, LSD ,LSD,~5ug,5
+R_3h9Bil3M8nTbb4R,R_RldFkDn1YGF4IF3,20/10/2016,LSD, LSD ,LSD,1-5ug,3
+R_3JgD0KLr1u9qylH,R_3fHRs3UxT4h3DYo,9/04/2017,Psilocybin, Psilocybin ,Psilocybin,0.35 grams dry,0.35
+R_3JgD0KLr1u9qylH,R_1rNWbibxPlddO0k,28/04/2017,Psilocybin, Psilocybin ,Psilocybin,0.35 grams,0.35
+R_3KN2gupTO01Bbwg,R_3sv53PLsSPPygzY,23/09/2016,LSD, LSD ,LSD,10 micro,10
+R_3KN2gupTO01Bbwg,R_BJvspfMgoyU2eg9,26/09/2016,LSD, LSD ,Lsd,10 microgram,10
+R_3KN2gupTO01Bbwg,R_115xZI0OW25Vozp,2/10/2016,LSD, LSD ,LSD,10 micro,10
+R_3KN2gupTO01Bbwg,R_3Jatp6ev6vaJV7M,4/10/2016,LSD, LSD ,LSD,10 micro,10
+R_3KN2gupTO01Bbwg,R_2EnkF9SxGbDm5FD,8/10/2016,LSD, LSD ,LSD,10 micro,10
+R_3KN2gupTO01Bbwg,R_RWQxtOQs3uCbg4h,11/10/2016,LSD, LSD ,LSD,10 micro,10
+R_3KN2gupTO01Bbwg,R_1pxRcBh0wf1ULj5,15/10/2016,LSD, LSD ,LSD,10 micro,10
+R_3KN2gupTO01Bbwg,R_1rHV3cpnckFZmeS,17/10/2016,LSD, LSD ,LSD,15 micro,15
+R_3KN2gupTO01Bbwg,R_ebWeK3scUyTyTdL,23/10/2016,LSD, LSD ,LSD,7 micro,7
+R_3KN2gupTO01Bbwg,R_1jpkLikjeN9yGZa,28/10/2016,LSD, LSD ,Lsd,10 micro,10
+R_3KrzI46v7aI8Z6J,R_3Ddvz4PKaYRcpET,9/11/2016,Psilocybin, Psilocybin ,Psilocybin mushrooms,0.2 grams,0.2
+R_3LiqV9X1JohXZJu,R_1lczVjlZh7sjwTq,2/06/2016,Psilocybin, Psilocybin ,Mushrooms,1 small mushroom,0.1
+R_3LiqV9X1JohXZJu,R_wSOnrHnWookdCwx,8/06/2016,Psilocybin, Psilocybin ,mushrooms,1,1
+R_3LiqV9X1JohXZJu,R_1db3tMOyiQXxDuq,22/06/2016,Psilocybin, Psilocybin ,mushrooms,1 small mushroom,0.1
+R_3lPTepefVD3IeKy,R_3iWOfyGtDYsMZeN,25/09/2016,LSD, LSD ,LSD,,
+R_3lPTepefVD3IeKy,R_29h3x630lN4QKns,30/09/2016,LSD, LSD ,LSD,150mcg,150
+R_3lPTepefVD3IeKy,R_1gOyNLlNbOXnOpP,27/10/2016,LSD, LSD ,LSD,,
+R_3MMT83lM7GDsvT2,R_3OcR8sgkM3QPFyY,14/11/2016,NovelSerotenergic, DOB ,DOB hydrochloride,60 micrograms,60
+R_3MMT83lM7GDsvT2,R_3Dv7YdUSC9u9BpR,16/11/2016,NovelSerotenergic, DOB ,DOB hydrochloride,40 micrograms,40
+R_3MMT83lM7GDsvT2,R_3kM9XxWTVYW4BjI,1/12/2016,NovelSerotenergic, DOB ,DOB,80 micrograms,80
+R_3MMT83lM7GDsvT2\n,R_ONAseVNITd2PWA9,29/11/2016,NovelSerotenergic, DOB ,DOB,20 micrograms,20
+R_3NPXdhxmxrhTtOZ,R_2Tv170QPTvu8ghi,25/10/2016,Psilocybin, Psilocybin ,Psilocybin mushroom powder,.3g,0.3
+R_3NPXdhxmxrhTtOZ,R_UKp1HqJkV1ipra1,28/10/2016,Psilocybin, Psilocybin ,Psilocybin mushrooms,0.2,0.2
+R_3NPXdhxmxrhTtOZ,R_3EHlUqox4uuMcWx,31/10/2016,Psilocybin, Psilocybin ,Psilocybin mushroom,0.2,0.2
+R_3NPXdhxmxrhTtOZ,R_PRKSe0CnPKYTTot,3/11/2016,Psilocybin, Psilocybin ,Psilocybin mushrooms,0.2,0.2
+R_3NPXdhxmxrhTtOZ,R_vcqIfxOUQXmfAOt,6/11/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,0.2,0.2
+R_3NPXdhxmxrhTtOZ,R_OrrAA4c2s8fMAKJ,10/11/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,0.2,0.2
+R_3NPXdhxmxrhTtOZ,R_24orGDdxdG3trC4,13/11/2016,Psilocybin, Psilocybin ,Psilocybin mushrooms,0.2,0.2
+R_3NPXdhxmxrhTtOZ,R_1MMKjxonXzG0kR0,17/11/2016,Psilocybin, Psilocybin ,Psilocybin mushrooms,0.2,0.2
+R_3NPXdhxmxrhTtOZ,R_22KPQEEt8zmng3K,24/11/2016,Psilocybin, Psilocybin ,Psilocybin mushrooms,0.2,0.2
+R_3NPXdhxmxrhTtOZ,R_2veMrXcf7lBSnLb,2/12/2016,Psilocybin, Psilocybin ,Psilocybin mushrooms,.15g,0.15
+R_3pg7j0f4AyvDpdo,R_2BxhxloZlS70tIC,5/04/2017,LSD, LSD ,LSD,10-15ug,12.5
+R_3pg7j0f4AyvDpdo,R_1msxZallP81Y5qJ,25/04/2017,LSD, LSD ,LCD,10-15ug,12.5
+R_3puoWOXBskRavJL,R_3kuhnUCmZxcWWR5,18/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.05-0.1g,0.08
+R_3puoWOXBskRavJL,R_2SuTBowpcPTzvGU,20/10/2016,Psilocybin, Psilocybin ,Cubensis B+,0.1,0.1
+R_3puoWOXBskRavJL,R_1iaFH4GLTn21wvE,22/10/2016,Psilocybin, Psilocybin ,Cubensis b+ and Peganum Harmala,"0.1g B+, + 0.2g rue",0.3
+R_3puoWOXBskRavJL,R_3iR3tMVgvOm8MJT,2/11/2016,Psilocybin, Psilocybin ,"Cubensis b+, Rue",0.1g + 0.1g,0.2
+R_3puoWOXBskRavJL,R_1LCkIzH8GAD4sHp,7/11/2016,Psilocybin, Psilocybin ,Cubensis b+ & Syrian Rue,0.2g and 0.1 grams,0.3
+R_3puoWOXBskRavJL,R_1g7kwszQ8Kt8rSs,10/11/2016,Psilocybin, Psilocybin ,"Cubensis b+, Syrian Rue","0.12g, 0.1g",0.22
+R_3puoWOXBskRavJL,R_eM88h3zXSjsTTZ7,15/11/2016,Psilocybin, Psilocybin ,Cubensis b+ and Rue,0.14 & 0.16,0.3
+R_3qeNbuyoTFLpHFU,R_88I3zNlIuIrDfnb,2/10/2016,LSD, LSD ,LSD,0-20ug,10
+R_3qeNbuyoTFLpHFU,R_3dXOQoYAH89FzRU,3/10/2016,LSD, LSD ,LSD,0-20ug,10
+R_3qeNbuyoTFLpHFU,R_3m3opcvAh4DCXDY,5/10/2016,LSD, LSD ,LSD,0-30ug,15
+R_3qeNbuyoTFLpHFU,R_1eyH7Mkcopvfo4Q,8/10/2016,LSD, LSD ,LSD,0-20ug,10
+R_3qeNbuyoTFLpHFU,R_3h4oUs0Vbx7MkZW,11/10/2016,LSD, LSD ,LSD,0-20ug,10
+R_3qeNbuyoTFLpHFU,R_28SRKgMjG4wFHzi,15/10/2016,LSD, LSD ,LSD,0-20ug,10
+R_3qeNbuyoTFLpHFU,R_YWEVdzQpDaAicTv,18/10/2016,LSD, LSD ,LSD,0-20ug,10
+R_3qeNbuyoTFLpHFU,R_2wzB1AhDSznoBHX,22/10/2016,LSD, LSD ,LSD,0-20ug,10
+R_3qeNbuyoTFLpHFU,R_4VK1h8me3pkEqOJ,23/10/2016,LSD, LSD ,LSD,0-35ug,17.5
+R_3qeNbuyoTFLpHFU,R_2WxlnlUMZCaoss6,28/10/2016,LSD, LSD ,LSD,0-20ug,10
+R_3qsaT1sq8ryTM2d,R_3EJPSYSIKlp77aw,23/03/2017,Mescaline, Mescaline (Organic) ,Mescaline aka powdered San pedro,+/- 120 mg,0.12
+R_3qsaT1sq8ryTM2d,R_20P6c0e3u0KNCSG,26/03/2017,Mescaline, Mescaline (Organic) ,Mescaline powder,20mg,0.02
+R_3qWhrYv7ZltrWvE,R_2xGc3iM1jQMLtGc,27/01/2017,LSD, LSD ,LSD,150 micrograms,150
+R_3rTk8NuDxqAC5H3,R_SOEWe3Oi6O5Q6SR,21/11/2016,Psilocybin, Psilocybin ,Psylocibin,225mg,0.23
+R_3rTk8NuDxqAC5H3,R_2YgL6XsuihNOwPS,9/12/2016,Psilocybin, Psilocybin ,Psylocibin,225mg,0.23
+R_3soDmQovum10VPg,R_300FgA6I8eCzfuy,28/04/2016,Psilocybin, Psilocybin ,psylocibe cubebsis b+,0.1-0.15,0.25
+R_3soDmQovum10VPg,R_22PSYcjGIzuPWAm,7/05/2016,Psilocybin, Psilocybin ,Pscilocye cubensis b+,0.1-0.15,0.25
+R_3soDmQovum10VPg,R_3PbMUgBDsusGUgx,10/05/2016,Psilocybin, Psilocybin ,Pscilocybe Cubensis B+,0.1-0.15,0.25
+R_3soDmQovum10VPg,R_1gndxDpmZcBfT54,15/05/2016,Psilocybin, Psilocybin ,Pscilocybe Cubensis B+,0.1-0.15,0.25
+R_3soDmQovum10VPg,R_2ZE00qx1CmlxVTO,19/05/2016,Psilocybin, Psilocybin ,Pscilocybe cubensis b+,0.1-0.15,0.25
+R_3soDmQovum10VPg,R_zYHw043dbwryrRL,30/05/2016,Psilocybin, Psilocybin ,Pscilocybe cubensis,0.1-0.15g,0.25
+R_3t26JqOmeIC3Q9L,R_9RcFJ78OQhvsVqN,7/10/2016,LSD, LSD ,LSD,15-20 microgram,17.5
+R_4SzEPqVXyNtOShX,R_2EiV03DWmUiWklO,15/10/2016,LSD, LSD ,Lsd,40 microgram,40
+R_5AB3XKhasH6snwl,R_8pStcDPHHktonO9,25/08/2016,LSD, LSD ,LSD,7 ug,7
+R_6gLx7u1hFVboSg9,R_325PFi714AjnGeK,13/09/2016,Psilocybin, Psilocybin ,Psilocybe subaeruginosa,0.1g,0.1
+R_6gLx7u1hFVboSg9,R_2ZJGUrBdzCuuDwo,16/09/2016,Psilocybin, Psilocybin ,Psilocybe subaeruginosa,0.1g,0.1
+R_6gLx7u1hFVboSg9,R_AECFGDzW25DRaTL,19/09/2016,Psilocybin, Psilocybin ,Psilocybe subaeruginosa,0.1g,0.1
+R_6gLx7u1hFVboSg9,R_sR1K27mSbtItb4R,22/09/2016,Psilocybin, Psilocybin ,P. Subaeruginosa,0.1g,0.1
+R_6QET4sOfr6xgiO1,R_1gOqd0id9OXf2Zo,6/09/2016,Psilocybin, Psilocybin ,Shrooms,0.05g,0.05
+R_6QET4sOfr6xgiO1,R_TnE4M6BhtIfKv8B,12/09/2016,Psilocybin, Psilocybin ,Cubensis b+,0.055,0.06
+R_736Yocy51bFsQH7,R_1nOQdn3mg2cAwqj,24/09/2016,LSD, LSD ,lsd,30 micrograms,30
+R_736Yocy51bFsQH7,R_1OwdncbuTr2ncvn,25/09/2016,LSD, LSD ,lsd,30 micrograms,30
+R_736Yocy51bFsQH7,R_3L1FQZsghUbqAbD,28/09/2016,LSD, LSD ,lsd,30microgrms,30
+R_736Yocy51bFsQH7,R_Aaik6TAF0RRbNjr,1/10/2016,LSD, LSD ,lsd,30micrograms,30
+R_736Yocy51bFsQH7,R_2upwv9BDoOXm3fU,2/10/2016,LSD, LSD ,lsd,50micrograms,50
+R_736Yocy51bFsQH7,R_21oHyV4ZCL5NRsm,3/10/2016,LSD, LSD ,lsd,30micrograms,30
+R_abpBsqKxM1nfrTX,R_31j8lmuAB5lt5Gg,24/03/2017,Psilocybin, Psilocybin ,Psilocybine,0.30 gram,0.3
+R_abpBsqKxM1nfrTX,R_Q6PuQJJdLpdUzn3,27/03/2017,Mescaline, Mescaline (Organic) ,Mescaline,100mg of dried san pedro,0.1
+R_abpBsqKxM1nfrTX,R_3nGhNlDSCkaxpbl,1/04/2017,LSD, LSD ,Lsd,25 micro gram,25
+R_abpBsqKxM1nfrTX,R_1mWXesPW8Fk4gfa,10/04/2017,LSD, LSD ,LSD,15micrograms,15
+R_abpBsqKxM1nfrTX,R_2tLMMNmFzs51r3O,14/04/2017,LSA, LSA ,Morning glory seeds (LSA),1.5 gr.,1.5
+R_abpBsqKxM1nfrTX,R_3JlsNm3Ljinru79,17/04/2017,Mescaline, Mescaline (Organic) ,San pedro powder (mescaline),1 caps of powder,
+R_AES2KF5m6toW1vX,R_0rjZWAQi9bA5kFr,7/09/2016,LSD, LSD ,Lsd,12,12
+R_AES2KF5m6toW1vX,R_CaGH5QfSnPK7qoh,8/09/2016,LSD, LSD ,Lsd,12,12
+R_AES2KF5m6toW1vX,R_1FkrQ2w3QdpJHnX,14/09/2016,LSD, LSD ,LSD,12,12
+R_Ate2hmMVO2bBnvH,R_2Et8I8vT0dtT1jZ,15/10/2016,Psilocybin, Psilocybin ,psilocybin and san pedro,psilicybin-250mg S.P.-10grams,0.25
+R_Ate2hmMVO2bBnvH,R_3L6DuCcDLGP8AwM,19/10/2016,LSD, LSD ,LSD,1/4 of a hit,25
+R_Ate2hmMVO2bBnvH,R_sTpLdBJJRC2eoSJ,22/11/2016,LSD, LSD ,LSD,half a hit,50
+R_Ate2hmMVO2bBnvH,R_2wdBQkd15bAPaMN,25/11/2016,LSD, LSD ,LSD,3/8 of a hit,37.5
+R_AznULNWveNNa4Q9,R_21zIv25byFxFQHa,2/10/2016,LSD, LSD ,LSD,10mcg,10
+R_AznULNWveNNa4Q9,R_3I9kWAzv252Ldky,6/10/2016,LSD, LSD ,LSD,10mcg,10
+R_AznULNWveNNa4Q9,R_117rvHWzN6I3UHQ,13/10/2016,LSD, LSD ,LSD,10mcg,10
+R_AznULNWveNNa4Q9,R_7QgTUcv5TFYO4F3,16/10/2016,LSD, LSD ,LSD,10mcg,10
+R_AznULNWveNNa4Q9,R_3PB4Bh7tpTDLvsz,21/10/2016,LSD, LSD ,LSD,15mcg,15
+R_AznULNWveNNa4Q9,R_1Fx5eH4nsLOcB6l,30/10/2016,LSD, LSD ,LSD,10 mcg,10
+R_AznULNWveNNa4Q9,R_3hEFxnmuI9RUZYK,11/11/2016,LSD, LSD ,LSD,15mcg,15
+R_bCSddv6Z4MNKsbX,R_8owWsPD9tAvqgjX,19/08/2016,Psilocybin, Psilocybin ,Psilocybin,.3 grams,0.3
+R_bCSddv6Z4MNKsbX,R_6eYdIS9nY0YLeOR,22/08/2016,Psilocybin, Psilocybin ,Psilocybin,.3 grams,0.3
+R_bCSddv6Z4MNKsbX,R_9YWwd69oYgkpA5T,26/08/2016,Psilocybin, Psilocybin ,Psilocybin,.3 grams,0.3
+R_bCSddv6Z4MNKsbX,R_RRnMB3U16C1L2H7,2/09/2016,Psilocybin, Psilocybin ,Psilocybin,.3 grams,0.3
+R_bCSddv6Z4MNKsbX,R_w4CnXTERQYkXLOh,24/09/2016,Psilocybin, Psilocybin ,Psilocybin,.3 grams,0.3
+R_cHNFJK7FHubVTFv,R_Q6eBCvPQke4LBE5,20/09/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,roughly 0.15-0.2 grams,0.18
+R_cHNFJK7FHubVTFv,R_2EgXbnRWfs5kgVw,26/09/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,between 0.15-0.2 grams,0.18
+R_cHNFJK7FHubVTFv,R_1jHe1blbz6R9zK7,30/09/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,between 0.15-0.2 grams,0.18
+R_cHNFJK7FHubVTFv,R_tX75zrHkVtLbcEV,3/10/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,between 0.15-0.2 grams,0.18
+R_cHNFJK7FHubVTFv,R_p4ul7nhaukRJi4F,6/10/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,between 0.15-0.2 grams,0.18
+R_cHNFJK7FHubVTFv,R_1DzYVmn64RttxBO,12/10/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,between 0.15-0.2 grams,0.18
+R_cHNFJK7FHubVTFv,R_3kHzvbh1WINg8uS,22/10/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,between 0.15-0.2 grams,0.18
+R_cHNFJK7FHubVTFv,R_2EFVSu7mXs557Df,25/10/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,between 0.15-0.2 grams,0.18
+R_d4gILva7ApoyRzP,R_1lxxD8xBAvioUzX,3/02/2017,LSD, LSD ,LSD,12 mcg,12
+R_doIyCbG1VcThk7D,R_eOIa7OTKSyC5D57,1/06/2016,Psilocybin, Psilocybin ,psilocybin,1 small shroom,0.1
+R_doIyCbG1VcThk7D,R_XXKaQ5RHKxwGVVf,2/06/2016,Psilocybin, Psilocybin ,psilocybin,1 small shroom,0.1
+R_doIyCbG1VcThk7D,R_12D7d6hAlxWN6lQ,3/06/2016,Psilocybin, Psilocybin ,psilocybin,1 small shroom,0.1
+R_doIyCbG1VcThk7D,R_sYWqsU73Bj6pAnT,4/06/2016,Psilocybin, Psilocybin ,psilocybin,1 small shroom,0.1
+R_doIyCbG1VcThk7D,R_zYIr3swSvI6UocF,5/06/2016,Psilocybin, Psilocybin ,psilocybin,1 small shroom,0.1
+R_doIyCbG1VcThk7D,R_PSDUmhxQSzLXgAx,6/06/2016,Psilocybin, Psilocybin ,psilocybin,1 small shroom,0.1
+R_doIyCbG1VcThk7D,R_2chgKFAtRoNSCEp,10/06/2016,Psilocybin, Psilocybin ,psilocybin,1 small shroom,0.1
+R_doIyCbG1VcThk7D,R_2yfqyKaVWMu43T8,11/06/2016,Psilocybin, Psilocybin ,psilocybin,1 small shroom,0.1
+R_doIyCbG1VcThk7D,R_25B0CzN1H7JokXR,14/06/2016,Psilocybin, Psilocybin ,psilocybin,1 small shroom,0.1
+R_doIyCbG1VcThk7D,R_242au5VluDAbtMz,21/06/2016,Psilocybin, Psilocybin ,psilocybin,1 small shroom,0.1
+R_doIyCbG1VcThk7D,R_3GdkM3pddkSwN0J,2/07/2016,Psilocybin, Psilocybin ,psilocybin,half a large shroom,0.5
+R_doIyCbG1VcThk7D,R_3qKVaKMRhNkRhiJ,3/07/2016,Psilocybin, Psilocybin ,psilocybin,1 small shroom,0.1
+R_doIyCbG1VcThk7D,R_2rBZSC6oSOil5JW,4/07/2016,Psilocybin, Psilocybin ,psilocybin,1 small shroom,0.1
+R_ebXHulKS2tv7Z7T,R_3HTGZ0LdonkhREF,22/09/2016,Psilocybin, Psilocybin ,psylocibin /english liberty caps,half a shelled peanut by eye,
+R_ebXHulKS2tv7Z7T,R_8jnNQFtxgKHHIrz,25/09/2016,Psilocybin, Psilocybin ,psylocibin,half a peanut by eye,
+R_eFkSEPILjFZXnx3,R_D1ZEVjt2G2HNBdL,2/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.15 grams of dried mushroom,0.15
+R_eFkSEPILjFZXnx3,R_31HiAMsS0Yi8Arf,6/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.2 grams of dried mushroom,0.2
+R_eFkSEPILjFZXnx3,R_2QF2C1KFF35IQAR,10/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.25 grams of dried mushroom,0.25
+R_eFkSEPILjFZXnx3,R_yL98Y9WOTmZsMnf,14/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.3 grams of dried mushroom,0.3
+R_eFkSEPILjFZXnx3,R_33pP6jPqcImiy2B,18/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.35 grams of dried mushroom,0.35
+R_eFkSEPILjFZXnx3,R_Xi8i7jk69C3Gs6d,22/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.4 grams of dried mushroom,0.4
+R_eFkSEPILjFZXnx3,R_3QSQeB1gx5eM9w4,30/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.5 grams of dried mushroom,0.5
+R_eFkSEPILjFZXnx3,R_2z5CdiXJfzfxJhs,3/11/2016,Psilocybin, Psilocybin ,Psilocybin,0.35 grams of dried mushroom,0.35
+R_eFkSEPILjFZXnx3,R_sHc5BfN2Cqu6gxz,7/11/2016,Psilocybin, Psilocybin ,Psilocybin,0.35 grams of dried mushroom,0.35
+R_pagMsNz8qSnAj3X\n,R_1pJw9MJWTF6YXFY,9/10/2016,LSD, LSD ,lsd,">20micrograms, too much",20
+R_pagMsNz8qSnAj3X\n,R_1C8TcFkPel6piWV,26/10/2016,LSD, LSD ,LSD,5 micrograms,5
+R_pagMsNz8qSnAj3X\n,R_1nPn83mWrIZmske,9/11/2016,LSD, LSD ,lsd,5 microgram,5
+R_pagMsNz8qSnAj3X\n,R_22Pq90V9yZdMTBs,17/11/2016,LSD, LSD ,LSD,5 micrograms,5
+R_puYo6bWtqKDuR33,R_38ec7w1v9ti28sV,8/08/2016,LSD, LSD ,LSD,1-Oct,10
+R_puYo6bWtqKDuR33,R_1LclvicH6vwhIsa,9/08/2016,LSD, LSD ,LSD,1-Oct,10
+R_puYo6bWtqKDuR33,R_1eVkY693gDo701t,10/08/2016,LSD, LSD ,LSD,Jan-15,6.67
+R_puYo6bWtqKDuR33,R_3CZ5jNpryhg7Vz3,14/08/2016,LSD, LSD ,lsd,1-Aug,12.5
+R_puYo6bWtqKDuR33,R_1jE2jPI2JdGglOI,15/08/2016,LSD, LSD ,lsd,1-Oct,10
+R_puYo6bWtqKDuR33,R_20P4w2g9gDlIjKh,18/08/2016,LSD, LSD ,lsd,1-Oct,10
+R_puYo6bWtqKDuR33,R_1K72TaPAzMvRs1y,19/08/2016,LSD, LSD ,lsd,1-Oct,10
+R_puYo6bWtqKDuR33,R_2wbg6ewEpHk57hW,30/08/2016,LSD, LSD ,lsd,1-Oct,10
+R_puYo6bWtqKDuR33,R_Q50wHbNa7u1ODxT,3/09/2016,LSD, LSD ,lsd,1-Oct,10
+R_puYo6bWtqKDuR33,R_2yeLMLcHiRmOapn,4/09/2016,LSD, LSD ,lsd,1-Oct,10
+R_puYo6bWtqKDuR33,R_3Ra3fXEXpKr5ela,5/09/2016,LSD, LSD ,lsd,1-Oct,10
+R_puYo6bWtqKDuR33,R_D302XxUIaFgt1bH,6/09/2016,LSD, LSD ,lsd,1-Oct,10
+R_puYo6bWtqKDuR33,R_UrK1IesWv6yN4Up,7/09/2016,LSD, LSD ,lsd,1-Oct,10
+R_RyiOCR7jwv9U0Rb,R_31pCe4yqD7IXdtb,12/10/2016,LSD, LSD ,LSD,Approximately 10ug,10
+R_RyiOCR7jwv9U0Rb,R_3HY1wVES63dNRnL,16/10/2016,LSD, LSD ,LSD,15ug,15
+R_RyiOCR7jwv9U0Rb,R_0kd9neDIF8sMFut,28/10/2016,LSD, LSD ,LSD,10ug,10
+R_RyiOCR7jwv9U0Rb,R_AgQVQcbIwJSasuJ,8/11/2016,LSD, LSD ,LSD,10ug,10
+R_RyiOCR7jwv9U0Rb,R_2zJeStEKERTaKNZ,13/11/2016,LSD, LSD ,LSD,10ug,10
+R_RyiOCR7jwv9U0Rb,R_3fIaoxTu9N3RTbz,17/11/2016,LSD, LSD ,LSD,10ug,10
+R_RyjUlAd7pSF1fzj,R_vwX3dkd5a3jEZfH,28/05/2016,Psilocybin, Psilocybin ,mushrooms,1,1
+R_RyjUlAd7pSF1fzj,R_2fkf8xYkrMpWueo,29/05/2016,Psilocybin, Psilocybin ,Mushrooms,1,1
+R_RyjUlAd7pSF1fzj,R_1mQlknbTTykKOPz,31/05/2016,Psilocybin, Psilocybin ,mushroom,1,1
+R_RyjUlAd7pSF1fzj,R_2QxL2BnDme4CkRr,2/06/2016,Psilocybin, Psilocybin ,mushroom,1,1
+R_RyjUlAd7pSF1fzj,R_UJZZodHYNeWzqoh,4/06/2016,Psilocybin, Psilocybin ,Mushroom,1,1
+R_SHooR3gVnmL8kZb,R_27xjh6UZtYTJFsY,12/03/2017,LSD, LSD ,LSD,10-15 ug,12.5
+R_SHooR3gVnmL8kZb,R_3GqBnwgInsD69q9,14/03/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_3kM3UDXttKCoaTV,15/03/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_2SCeycWyq2RydZY,17/03/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_28BNdsyOhz6rUne,18/03/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_1MJRuZIXkUmlmy3,19/03/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_2pK81FsJRltoNXl,21/03/2017,LSD, LSD ,LSD,10-15 ug,12.5
+R_SHooR3gVnmL8kZb,R_3QJoI5UGKkwy1LL,22/03/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_2idzHMtgwrN0GZP,24/03/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_2vhOEyDZrPeGNQV,25/03/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_1cYcWCz1D1vFOu8,26/03/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_3Mtk2z0DJiiVD2t,27/03/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_WcvCpND0zgivz3z,29/03/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_A6vAGs1jfnANmAF,30/03/2017,LSD, LSD ,lsd,20+ ug (was a bit high),20
+R_SHooR3gVnmL8kZb,R_334qAcYwypOGtwc,1/04/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_2WvTRIcXl4aqP1J,2/04/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_2YQ79m7rNsaJ9bX,3/04/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_cMdufOzAdcIkUDv,5/04/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_SHooR3gVnmL8kZb,R_3fkiQSf8baB5FD5,8/04/2017,LSD, LSD ,lsd,Oct-15,6.67
+R_shSL0Gm3NQidL6F,R_3ESZnzNVqKWSINC,2/02/2017,Psilocybin, Psilocybin ,Psilocybe Semilanceata,.19g,0.19
+R_shSL0Gm3NQidL6F,R_1nN6D4u8kpS8HBS,14/02/2017,Psilocybin, Psilocybin ,Psilocybin,.19 g,0.19
+R_shSL0Gm3NQidL6F\n,R_OfneSlbQ6K2FB4J,30/01/2017,Psilocybin, Psilocybin ,psilocybe semilanceata,.19 grams,0.19
+R_shSL0Gm3NQidL6F\n,R_BG8rGvRr4Sv37aN,8/02/2017,Psilocybin, Psilocybin ,Psilocybe Semilanceata,.19g,0.19
+R_sqeygPWe91ruIQF,R_3gShKrveyEuHsUu,23/09/2016,Psilocybin, Psilocybin ,psilocybin,0.52gr,0.52
+R_sqeygPWe91ruIQF,R_12roibBRmBjwaPJ,28/09/2016,Psilocybin, Psilocybin ,Psilocybin (truffles,0.75gr,0.75
+R_sXb2CISOm3EYQEh,R_20TzVUlEXwmZYfi,23/01/2017,Psilocybin, Psilocybin ,mushroom,half of a very small one,0.05
+R_sXb2CISOm3EYQEh,R_10NpVB8iQRMxNyg,29/01/2017,Psilocybin, Psilocybin ,mushroom,1 - I don't have scales that can measure small amounts but I'll get some so I can be more accurate with my dosage,1
+R_sXb2CISOm3EYQEh,R_1P6kplwm2168tHm,4/02/2017,Psilocybin, Psilocybin ,mushroom,1 small one,0.1
+R_sXb2CISOm3EYQEh,R_pmWNlntUiMAmMz7,7/02/2017,Psilocybin, Psilocybin ,mushroom,1.5 small ones,0.15
+R_sXb2CISOm3EYQEh,R_qJjRH8SRQnIbAjv,11/02/2017,Psilocybin, Psilocybin ,mushroom,1 small one,0.1
+R_sXb2CISOm3EYQEh,R_264Gr1cRXYcvL9j,21/02/2017,Psilocybin, Psilocybin ,mushroom,1 small one,0.1
+R_sXb2CISOm3EYQEh,R_1l68g7D6kktZnoa,25/02/2017,Psilocybin, Psilocybin ,mushroom,1 small one,0.1
+R_sXb2CISOm3EYQEh,R_1IubHy837P4pcKY,28/02/2017,Psilocybin, Psilocybin ,mushroom,1 small one,0.1
+R_UgQf98m1nc2LKdb,R_2vcrmaDZ2XXONGb,9/10/2016,Psilocybin, Psilocybin ,psilcybin mushrooms,0.25 grams,0.25
+R_UgQf98m1nc2LKdb,R_1JXYze6b8LjEfp2,10/10/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,0.3gr,0.3
+R_UgQf98m1nc2LKdb,R_3KQ6vEeGGycjdbG,19/10/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,0.3gr,0.3
+R_UgQf98m1nc2LKdb,R_Q0TmH8bumeZoHIJ,23/10/2016,Mescaline, Mescaline (Organic) ,Peruvian Torch (mescaline),3gr dried cactus flesh,3
+R_UgQf98m1nc2LKdb,R_3O61GnCY0M1gXxM,26/10/2016,Mescaline, Mescaline (Organic) ,"Peruvian Torch (mescaline), Amanita Muscaria","4gr dried cactus, 2gr dried mushroom",6
+R_UgQf98m1nc2LKdb,R_33p5BxoE91BdGe6,27/10/2016,Mescaline, Mescaline (Organic) ,P. Torch/Amantia,"4gr cactus, 2gr dried amanita",6
+R_UgQf98m1nc2LKdb,R_UKLbMSf0ZOq4Rcl,31/10/2016,Mescaline, Mescaline (Organic) ,peruvian torch,3g,3
+R_UgQf98m1nc2LKdb,R_24cwzoNziaK6LK1,4/11/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,0.3gr,0.3
+R_UgQf98m1nc2LKdb,R_31gcRyDiCVEWmQO,5/11/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,0.3gr,0.3
+R_UgQf98m1nc2LKdb,R_xgrd8id3cZ2TpYt,12/11/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,0.25g,0.25
+R_UgQf98m1nc2LKdb,R_3J31X6dpmKZd5oP,16/11/2016,Psilocybin, Psilocybin ,psilocybin mushrooms,0.25gr,0.25
+R_UZ9F1FOFPNjjoKl,R_AuqXAMmiLH3pFol,28/09/2016,Psilocybin, Psilocybin ,Liberty Cap mushroom,"1 small cap, probably less than 0.5g",0.1
+R_UZ9F1FOFPNjjoKl,R_1EWpYnmDGByk1J1,30/09/2016,LSD, LSD ,Lsd,1/18 of a single tab,5.55
+R_UZ9F1FOFPNjjoKl,R_2WJ9WaKhMIhiNNc,1/10/2016,LSD, LSD ,LSD,1/18 full dose,5.55
+R_UZ9F1FOFPNjjoKl,R_2YXKi3Gw4k4STs7,4/10/2016,LSD, LSD ,LSD,1/9 full dose,11.11
+R_UZ9F1FOFPNjjoKl,R_3JK13Aw5N6Ne2Go,8/10/2016,LSD, LSD ,Lsd,1/18 full dose,5.55
+R_UZ9F1FOFPNjjoKl,R_AtUE6dAe4zZyEGB,13/10/2016,LSD, LSD ,LSD,1/18 of a full tab,5.55
+R_UZ9F1FOFPNjjoKl,R_10ooJz6MkfICzbL,21/10/2016,LSD, LSD ,LSD,Jan-18,5.55
+R_UZ9F1FOFPNjjoKl,R_3oO9pg82f98ZWtx,25/10/2016,LSD, LSD ,LSD,Jan-18,5.55
+R_UZ9F1FOFPNjjoKl,R_33fFHhIojz9JXEv,29/10/2016,LSD, LSD ,LSD,1/18 of a full tab,5.55
+R_UZ9F1FOFPNjjoKl,R_aWswlAlxqrgdIPf,1/11/2016,LSD, LSD ,LSD,1/9 full dose,11.11
+R_UZ9F1FOFPNjjoKl,R_blwd7yLGF1xGsWF,5/11/2016,LSD, LSD ,LSD and one dried liberty cap mushroom,1/9 of a tab plus 0.1g of dried mushroom,11.11
+R_vNPUrYOPiT2fd1n,R_2aqvkbyurDmYhp4,24/08/2016,Psilocybin, Psilocybin ,psilocybin mushroom,0.05 g,0.05
+R_vNPUrYOPiT2fd1n,R_1EX6vUPFtwz2zUC,28/08/2016,Psilocybin, Psilocybin ,psilocibin mushroom,0.05 g,0.05
+R_vNPUrYOPiT2fd1n,R_2xPoTOT6YVUfLnt,4/09/2016,Psilocybin, Psilocybin ,Psilocybine mushroom,0.05g,0.05
+R_vNPUrYOPiT2fd1n,R_2fDHn6ZqdALAsxE,9/09/2016,Psilocybin, Psilocybin ,mushroom,0.05 g,0.05
+R_vNPUrYOPiT2fd1n,R_28IpCb6ulgwXxkE,13/09/2016,Psilocybin, Psilocybin ,mushroom,0.05g,0.05
+R_vNPUrYOPiT2fd1n,R_1H2xstOFIvT8uLO,17/09/2016,Psilocybin, Psilocybin ,mushroom,0.09g,0.09
+R_vNPUrYOPiT2fd1n,R_2DLVCSatvOFu9av,26/09/2016,Psilocybin, Psilocybin ,mushrooms,0.05 g,0.05
+R_vTrZQPZkV1bHq1P,R_3hmxhn2uDo1SEG4,6/08/2016,Psilocybin, Psilocybin ,Died Psilocybin,.16grams,0.16
+R_vTrZQPZkV1bHq1P,R_3EEX1ImbhfvhbBr,8/08/2016,Psilocybin, Psilocybin ,Psilocybin,.15grams,0.15
+R_vTrZQPZkV1bHq1P,R_6Kb43So7Oqb9EiJ,15/08/2016,Psilocybin, Psilocybin ,Psilosybin,.15 grams,0.15
+R_vTrZQPZkV1bHq1P,R_3G6PjABl0mWULYB,18/08/2016,Psilocybin, Psilocybin ,Psilocybin,.3 of a gram,0.3
+R_vTrZQPZkV1bHq1P,R_1Y74KUlRTNl6B69,2/09/2016,Psilocybin, Psilocybin ,Psilocybin,.15grams,0.15
+R_vTrZQPZkV1bHq1P,R_XO3cxG0xrJzTLep,8/09/2016,Psilocybin, Psilocybin ,Psilocybin,.15grams,0.15
+R_vTrZQPZkV1bHq1P,R_2wS6eh1F0xhGXN2,13/09/2016,Psilocybin, Psilocybin ,Psilocybin,.15gram,0.15
+R_XGM3sVgGkmXmrDP,R_1EhauuRH98tTgSI,27/09/2016,LSD, LSD ,LSD,20 microgram,20
+R_XGM3sVgGkmXmrDP,R_1eDxhOn5bqKKgAW,30/09/2016,LSD, LSD ,lsd,20 microgram,20
+R_XGM3sVgGkmXmrDP,R_1lb0ROFSBTm3RB7,3/10/2016,LSD, LSD ,lsd,15 microgram,15
+R_XGM3sVgGkmXmrDP,R_2YVMyvHRQpo7Jff,7/10/2016,LSD, LSD ,lsd,15 microgram,15
+R_XGM3sVgGkmXmrDP,R_3Pk0H4wNP4Xrd4o,9/10/2016,LSD, LSD ,lsd,15,15
+R_XiXjhIIeLwEzR9D,R_2xS22DIsukbMi9B,17/01/2017,LSD, LSD ,LSD,25-30mcg,27.5
+R_XiXjhIIeLwEzR9D,R_1H6MX7QNdWOUcHn,19/01/2017,LSD, LSD ,LSD,25-30mcg,27.5
+R_XiXjhIIeLwEzR9D,R_3BEHIJUFgTunfu9,24/01/2017,LSD, LSD ,lsd,25-35mcg,30
+R_XiXjhIIeLwEzR9D,R_qwtASW5iJdBeE0N,9/02/2017,LSD, LSD ,LSD,20-25mcg,22.5
+R_yF8miVOgKmsq4LL,R_3P4XU7GhZ4qook8,5/10/2016,Psilocybin, Psilocybin ,Magic truffles,1/10 of a normal dose,0.3
+R_yF8miVOgKmsq4LL,R_2wdDcQMuJaHul2y,10/10/2016,Psilocybin, Psilocybin ,Magic truffles,1/10 of one hit,0.3
+R_yF8miVOgKmsq4LL,R_3n9mtYyXLqRWMYo,29/10/2016,Psilocybin, Psilocybin ,Magic truffles,0.15,0.15
+R_yF8miVOgKmsq4LL,R_1I3FZzESlFhs0PS,5/11/2016,Psilocybin, Psilocybin ,Truffles,0.075,0.08
+R_yF8miVOgKmsq4LL,R_1gI2SSPGAS8ki8c,12/11/2016,Psilocybin, Psilocybin ,Truffles,0.05,0.05
+R_yIn0urnSP9j1j0Z,R_d72p520TnWM64il,26/10/2016,LSD, LSD ,LSD,15ug,15
+R_yIn0urnSP9j1j0Z,R_1jOCAy8rl9u6XPN,28/10/2016,LSD, LSD ,LSD,10ug,10
+R_yIn0urnSP9j1j0Z,R_1loZjQD1cS6cZvt,1/11/2016,LSD, LSD ,LSD,20ug,20
+R_yIn0urnSP9j1j0Z,R_2fuDt88kXnyi5LY,4/11/2016,LSD, LSD ,LSD,10ug,10
+R_yIn0urnSP9j1j0Z,R_tEyRf8CmkVUVE8F,7/11/2016,LSD, LSD ,LSD,10ug,10
+R_yIn0urnSP9j1j0Z,R_2uIJwqfBBKrFe8L,9/11/2016,LSD, LSD ,LSD,10ug,10
+R_yOPAdy9zWsul7Lr,R_pt5aX0qerjmWOLT,28/09/2016,Psilocybin, Psilocybin ,Psilocybin,Approx. 0.3g,0.3
+R_yOPAdy9zWsul7Lr,R_2dAS12JN8NfBZHA,30/09/2016,Psilocybin, Psilocybin ,Dried magic mushroom,0.3g,0.3
+R_yOPAdy9zWsul7Lr,R_1golpvgXeV1H4uh,9/10/2016,Psilocybin, Psilocybin ,Dried mushroom,0.2,0.2
+R_yOPAdy9zWsul7Lr,R_30wz3pIK0Tc30w1,15/10/2016,Psilocybin, Psilocybin ,Dry Mushroom,0.2,0.2
+R_yOPAdy9zWsul7Lr,R_5vxKfbpIjFk4A49,18/10/2016,Psilocybin, Psilocybin ,Dry mushroom,0.2,0.2
+R_yOPAdy9zWsul7Lr,R_1Nx1u1rI8tB05Uc,21/10/2016,Psilocybin, Psilocybin ,Dry mushroom,0.2,0.2
+R_yOPAdy9zWsul7Lr,R_3rUFZZtfQ9KpZQ5,1/11/2016,Psilocybin, Psilocybin ,Dry mushrooms,0.2,0.2
+R_yOPAdy9zWsul7Lr,R_3M5zDO8tBQhUthp,3/11/2016,Psilocybin, Psilocybin ,Dry mushroom,0.2,0.2
+R_z3bqCgthJ4hvtqV,R_3jSXMPTHJkHKUpv,1/09/2016,Psilocybin, Psilocybin ,Shrooms,1 g,1
+R_z3bqCgthJ4hvtqV,R_3fZd0JL21zLk7xG,2/09/2016,Psilocybin, Psilocybin ,Shrooms,.05 g,0.05
+R_z3bqCgthJ4hvtqV,R_2EobwgiSnyGQFPE,3/09/2016,Psilocybin, Psilocybin ,Shrooms,1g,1
+R_z3bqCgthJ4hvtqV,R_3NDKkCiDUZ1LzUy,4/09/2016,Psilocybin, Psilocybin ,Shrooms,1g,1
+R_z3bqCgthJ4hvtqV,R_2Cp19U0G5UhySFV,7/09/2016,Psilocybin, Psilocybin ,Shrooms,1g,1
+R_z3bqCgthJ4hvtqV,R_UR1H4vHj7oMgbmh,9/09/2016,Psilocybin, Psilocybin ,Shrooms,.05g,0.05
+R_z3bqCgthJ4hvtqV,R_12zIIyOyLj08ZuN,10/09/2016,Psilocybin, Psilocybin ,Shrooms,1 g,1
+R_z3bqCgthJ4hvtqV,R_2rqoW468tVgGtyq,15/09/2016,Psilocybin, Psilocybin ,Shrooms,.05 g,0.05
+R_z3bqCgthJ4hvtqV,R_22yxN2VmuJRChzu,17/09/2016,Psilocybin, Psilocybin ,Shrooms,.05g,0.05
+R_z3bqCgthJ4hvtqV,R_3sihmvW4RRFHbqw,21/09/2016,Psilocybin, Psilocybin ,Shrooms,.05g,0.05
+R_z3bqCgthJ4hvtqV,R_NUqOlnHwRXTg5Xz,22/09/2016,Psilocybin, Psilocybin ,Shroooms,03g,0.3
+R_z3bqCgthJ4hvtqV,R_3iCLY7dENwXZ652,26/09/2016,Psilocybin, Psilocybin ,Shrooms,1 g,1
+R_ZC4BuOAk9MZ2UH7,R_6DxNbLe5P003BiV,1/10/2016,Psilocybin, Psilocybin ,psilocybin,0.17mg,0.17
+R_ZC4BuOAk9MZ2UH7,R_DVlEecNkb9hvr0J,10/10/2016,Psilocybin, Psilocybin ,psilocybin,0.14mg,0.14
+R_ZC4BuOAk9MZ2UH7,R_1nOygSWpLJjJC4l,13/10/2016,Psilocybin, Psilocybin ,psilocybin,0.15 mg,0.15
+R_ZC4BuOAk9MZ2UH7,R_3q8ziV9Gy7YGfaQ,20/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.16 mg,0.16
+R_ZC4BuOAk9MZ2UH7,R_1gjcuK7rTTDWyx3,25/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.16?mg,0.16
+R_ZC4BuOAk9MZ2UH7,R_1mWPWVdvjrZ1kIU,31/10/2016,Psilocybin, Psilocybin ,Psilocybin,0.16 mg,0.16
+R_ZC4BuOAk9MZ2UH7,R_e9EPePhZ0TPdkzv,3/11/2016,Psilocybin, Psilocybin ,Psilocybin,0.16 mg,0.16

@@ -1,5 +1,4 @@
 # Microdosing Experiences
-# 24 Mar 18
 # Vince Polito
 # vince.polito@mq.edu.au
 # 
@@ -12,7 +11,7 @@ p_load(psych,lsmeans,nlme,ggpubr,ggthemes,tidyverse)
 p_load_gh("vince-p/vtools")
 
 dailydata<-read_csv("cleandata/dailydata.csv") #Load daily summary data
-#dailydata<-dailydata[!dailydata$id %in% read_csv("cleandata/hidose.csv")$id,] ## RUN THIS LINE TO EXCLUDE HIGH DOSES (SEE PAGE 17)
+dailydata<-dailydata[!dailydata$id %in% read_csv("cleandata/hidose.csv")$id,] ## RUN THIS LINE TO EXCLUDE HIGH DOSE DAILY REPORTS
 
 
 dailydata$type[dailydata$type=="dayother"]<-"Baseline"
@@ -22,8 +21,6 @@ dailydata$type[dailydata$type=="day2"]<-"Day2"
 
 dailydata$type <- factor(dailydata$type, levels=c("Baseline","Day0", "Day1", "Day2"))
 dailydata<-dailydata %>% select(id, type,order(colnames(.))) # sort columns alphabetically
-
-# dailydata<-dailydata[!dailydata$id %in% read_csv("cleandata/hidose.csv")$id,]  ## USE THIS LINE TO EXCLUDE PARTICIANTS WHO REPORTED HIGH DOSES (SEE PAGE 17).
 
 # ## WORKING FOR GENERATING A LME FOR A SINGLE RATING ===================
 # model.lme <- lme(d~type,random=~1|id,data=dailydata,method="ML",na.action = na.omit) #basic model without corrections

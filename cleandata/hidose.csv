@@ -1,4 +1,12 @@
-id,ResponseID,date,md_substance,md_dose,Recoded_Dose
-R_2R83gy89GxDMEv7,R_r9Fz6yEGXCwKWo9,2016-11-20T00:00:00Z,Psilocybin truffles dried,5g,5
-R_3lPTepefVD3IeKy,R_29h3x630lN4QKns,2016-09-30T00:00:00Z,LSD,150mcg,150
-R_3qWhrYv7ZltrWvE,R_2xGc3iM1jQMLtGc,2017-01-27T00:00:00Z,LSD,150 micrograms,150
+id,ResponseID,date,md_substance,md_dose,Recoded_Dose,OtherSubs
+R_2R83gy89GxDMEv7,R_r9Fz6yEGXCwKWo9,2016-11-20T00:00:00Z,Psilocybin truffles dried,5g,5,
+R_3lPTepefVD3IeKy,R_29h3x630lN4QKns,2016-09-30T00:00:00Z,LSD,150mcg,150,
+R_3qWhrYv7ZltrWvE,R_2xGc3iM1jQMLtGc,2017-01-27T00:00:00Z,LSD,150 micrograms,150,
+R_1gOVLSrXtOA3OD6,R_syVpEVKASVBoXeh,19/09/2016,1p-lsd,13micrograms,13,"Mushrooms, weed"
+R_25FS6pq4gbKRDTT,R_2ALwwWxVtMdqiSq,16/10/2016,LSD,.25mg,25,"Alcohol, Marijuana, Cocaine"
+R_2eXBlQcLGGWWw9G,R_ub8wEF33uNb3VNn,9/02/2017,Psilocybin,.10g,10,"Dmt, infused into ad leaf mixture, known as Changa, approx 50mg"
+R_2eXBlQcLGGWWw9G,R_2cbAQuGKa5KWek1,19/02/2017,Psilocybin,.10g,10,"Lsd, approx 300ug"
+R_3h9Bil3M8nTbb4R,R_1osScGcqTdQBoKw,6/10/2016,LSD,~5ug,5,Amphetamine
+R_SHooR3gVnmL8kZb,R_1cYcWCz1D1vFOu8,26/03/2017,lsd,Oct-15,6.67,MDMA
+R_UgQf98m1nc2LKdb,R_1JXYze6b8LjEfp2,10/10/2016,psilocybin mushrooms,0.3gr,0.3,"hash, kava, GHB"
+R_ZC4BuOAk9MZ2UH7,R_DVlEecNkb9hvr0J,10/10/2016,psilocybin,0.14mg,0.14,0.70 mg MDMA  at 2pm.
