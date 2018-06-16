@@ -15,11 +15,11 @@ dailydata<-dailydata[!dailydata$id %in% read_csv("cleandata/hidose.csv")$id,] ##
 
 
 dailydata$type[dailydata$type=="dayother"]<-"Baseline"
-dailydata$type[dailydata$type=="day0"]<-"Day0"
-dailydata$type[dailydata$type=="day1"]<-"Day1"
-dailydata$type[dailydata$type=="day2"]<-"Day2"
+dailydata$type[dailydata$type=="day0"]<-"DoseDay"
+dailydata$type[dailydata$type=="day1"]<-"Day+1"
+dailydata$type[dailydata$type=="day2"]<-"Day+2"
 
-dailydata$type <- factor(dailydata$type, levels=c("Baseline","Day0", "Day1", "Day2"))
+dailydata$type <- factor(dailydata$type, levels=c("Baseline","DoseDay", "Day+1", "Day+2"))
 dailydata<-dailydata %>% select(id, type,order(colnames(.))) # sort columns alphabetically
 
 # ## WORKING FOR GENERATING A LME FOR A SINGLE RATING ===================
@@ -30,26 +30,30 @@ dailydata<-dailydata %>% select(id, type,order(colnames(.))) # sort columns alph
 # plot(model.lsm, horiz=F)
 # tt<-summary(model.lme)
 
+
 makeplot<-function(data,graphtitle){
+  c<-"steelblue"
   ggplot(data=data, aes(x=type, y=lsmean)) +
-    geom_line(group=1,color="black",linetype='dashed',size=.9) + #deepskyblue
-    geom_errorbar(aes(ymin = lower.CL, ymax = upper.CL), width = 0.2, alpha=.6, size=.9) +
-    geom_point(aes(y = lsmean), size = 3, shape = 22, color='black', fill='black') + # darkred / pink
+    geom_line(group=1,color=c,linetype='dashed',size=1.5) + 
+    geom_errorbar(aes(ymin = lower.CL, ymax = upper.CL), width = 0.2, alpha=.6, size=1.2, color=c) +
+    geom_point(aes(y = lsmean), size = 3, shape = 22, color=c, fill=c) + # darkred / pink
     ylim(2.8, 4) +
+    annotate("text", x = 2, y = 3.9, label = "*",colour = "red", size = 14) + #comparison bars would be better
     labs(x = NULL, y = "Rating",
          title = graphtitle) +
-    theme(axis.text.x = element_text(face="bold",  size=14),
+    theme(axis.text.x = element_text(face="bold",  size=18),
           axis.title.y =element_text(face="plain",  size=16),
-          axis.text.y = element_text(face="plain",  size=14),
-          plot.title = element_text(hjust = 0.5, size=19),
+          axis.text.y = element_text(face="plain",  size=18),
+          plot.title = element_text(hjust = 0.5, size=22),
           plot.margin=unit(c(1,0,2,0), "lines")) +
-   theme_hc()
+    theme_hc()
+   
 }
 
 # Test plot with this code:
-# model.lme <- lme(d.connected~type,random=~1|id,data=dailydata,method="ML",na.action = na.omit) #basic model without correctio
-# m<-makeplot(as.data.frame(summary(lsmeans(model.lme, ~type))),"test")
-# m
+ # model.lme <- lme(Connected~type,random=~1|id,data=dailydata,method="ML",na.action = na.omit) #basic model without correctio
+ # m<-makeplot(as.data.frame(summary(lsmeans(model.lme, ~type))),"test")
+ # m
 
 
 # Loop through all variables ===================
@@ -78,14 +82,14 @@ daily.modelsummary<-lapply(varlist, function(x) {
   
   # make a dataframe with the model summary statistics
   data.frame(Measure=x,Intercept=as.numeric(temp.summary$tTable["(Intercept)",c("Value")]),
-             Day0_b=as.numeric(temp.summary$tTable["typeDay0",c("Value")]),
-             t=as.numeric(temp.summary$tTable["typeDay0",c("t-value")]),
+             Day0_b=as.numeric(temp.summary$tTable["typeDoseDay",c("Value")]),
+             t=as.numeric(temp.summary$tTable["typeDoseDay",c("t-value")]),
              p=pv(temp.contrasts[1,6]), #this is lazy notation... referring to the first comparison. 6th col is p value
-             Day1_b=as.numeric(temp.summary$tTable["typeDay1",c("Value")]),
-             T=as.numeric(temp.summary$tTable["typeDay1",c("t-value")]),
+             Day1_b=as.numeric(temp.summary$tTable["typeDay+1",c("Value")]),
+             T=as.numeric(temp.summary$tTable["typeDay+1",c("t-value")]),
              p=pv(temp.contrasts[2,6]),
-             Day2_b=as.numeric(temp.summary$tTable["typeDay2",c("Value")]),
-             T=as.numeric(temp.summary$tTable["typeDay2",c("t-value")]),
+             Day2_b=as.numeric(temp.summary$tTable["typeDay+2",c("Value")]),
+             T=as.numeric(temp.summary$tTable["typeDay+2",c("t-value")]),
              p=pv(temp.contrasts[3,6])
              )
 })
