@@ -134,13 +134,13 @@ ppplots<-lapply(names(pre.post)[5:20],function(x){ #20
                  color = NA) +
     geom_boxplot(notch = TRUE,
                 width = 0.2) +
-    stat_summary(aes_string(y = x, group = 1), fun.y=mean, geom="line", color="green4", size=.6) +
-    stat_summary(fun.y="mean", geom="point", size=2, shape=4)+
+    stat_summary(aes_string(y = x, group = 1), fun.y=mean, geom="line", color="green4", size=1.6) +
+    stat_summary(fun.y="mean", geom="point", size=4, shape=4)+
     labs(x=NULL,y=NULL,title = x) +
     guides(fill=FALSE) +
-    theme(axis.text.x = element_text(face="bold",  size=15),
-          axis.text.y = element_text(face="bold",  size=16),
-          plot.title = element_text(hjust = 0.5,size=19),
+    theme(axis.text.x = element_text(face="bold",  size=20),
+          axis.text.y = element_text(face="bold",  size=20),
+          plot.title = element_text(hjust = 0.5,size=17),
           plot.margin=unit(c(1,0,2,0), "lines")) +
     theme_hc()
   })
@@ -148,18 +148,25 @@ ppplots<-lapply(names(pre.post)[5:20],function(x){ #20
 #ppplots[1]
 
 #This next part sets the y axis values to better show the data
+#Asterixs manually added for significant comparisons
 ppplots[[1]]$coordinates$limits$y=c(0,20) #Dass Depression
+ppplots[[1]]<-ppplots[[1]]+annotate("text", x = 1.5, y = 17, label = "*",colour = "red", size = 16)
+ppplots[[1]]
 ppplots[[2]]$coordinates$limits$y=c(0,20) #DASS Anxiety
 ppplots[[3]]$coordinates$limits$y=c(0,20) #DASS Stress
+ppplots[[3]]<-ppplots[[3]]+annotate("text", x = 1.5, y = 17, label = "*",colour = "red", size = 16)
 ppplots[[4]]$coordinates$limits$y=c(1,6)  #MWQ
+ppplots[[4]]<-ppplots[[4]]+annotate("text", x = 1.5, y = 5.3, label = "*",colour = "red", size = 16)
 ppplots[[5]]$coordinates$limits$y=c(-4,6) #QOLI
 ppplots[[6]]$coordinates$limits$y=c(0,6)  #MAAS
 ppplots[[8]]$coordinates$limits$y=c(1.8,4.4) #Extraversion
 ppplots[[9]]$coordinates$limits$y=c(1.8,4.4) #Agreableness
 ppplots[[10]]$coordinates$limits$y=c(1.8,4.4)#Conscientiousness
 ppplots[[11]]$coordinates$limits$y=c(1.8,4.4)#Neuroticism
+ppplots[[11]]<-ppplots[[11]]+annotate("text", x = 1.5, y = 4.2, label = "*",colour = "red", size = 16)
 ppplots[[12]]$coordinates$limits$y=c(1.8,4.4)#Openness
 ppplots[[13]]$coordinates$limits$y=c(7,34) #TAS
+ppplots[[13]]<-ppplots[[13]]+annotate("text", x = 1.5, y = 32, label = "*",colour = "red", size = 16)
 ppplots[[15]]$coordinates$limits$y=c(10,25) #Involuntariness
 ppplots[[16]]$coordinates$limits$y=c(10,25) #Effortlessness
 
