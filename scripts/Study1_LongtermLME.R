@@ -99,19 +99,19 @@ plt<-ggplot(data = dat, aes(y = y,
     geom_boxplot(notch = TRUE,
                  width = 0.2, fill="darkgrey")+
     geom_point(x=1, y=mean(dat$y), size=2, shape=4)+
-    geom_text(label="boxplot", x=.8, y=2,size=5,fontface="plain")+geom_segment(x=.8, y=1.8, xend=.89, yend=1.3)+
-    geom_text(label="violin plot", x=.8, y=4,size=5,fontface="plain")+geom_segment(x=.86, y=3.9, xend=.95, yend=3.1)+
-    geom_text(label="median", x=1.1, y=0,size=5,fontface="plain")+geom_segment(x=1.1, y=0.1, xend=1, yend=median(dat$y)-.05)+
-    geom_text(label="mean", x=1.2, y=2,size=5,fontface="plain")+geom_segment(x=1.2, y=1.8, xend=1.02, yend=mean(dat$y)+.05)+
-    geom_text(label="extreme values", x=1.2, y=mean(sort(dat$y, dec=T)[1:2]),size=5,fontface="plain")+
+    geom_text(label="boxplot", x=.8, y=2,size=9,fontface="plain")+geom_segment(x=.8, y=1.8, xend=.89, yend=1.3)+
+    geom_text(label="violin plot", x=.8, y=4,size=9,fontface="plain")+geom_segment(x=.86, y=3.9, xend=.95, yend=3.1)+
+    geom_text(label="median", x=1.1, y=0,size=9,fontface="plain")+geom_segment(x=1.1, y=0.1, xend=1, yend=median(dat$y)-.05)+
+    geom_text(label="mean", x=1.2, y=2,size=9,fontface="plain")+geom_segment(x=1.2, y=1.8, xend=1.02, yend=mean(dat$y)+.05)+
+    geom_text(label="extreme values", x=1.2, y=mean(sort(dat$y, dec=T)[1:2]),size=9,fontface="plain")+
     geom_segment(x=1.02, y=sort(dat$y, dec=T)[1], 
                  xend=1.14, yend=(mean(sort(dat$y, dec=T)[1:2]))+.2)+
     geom_segment(x=1.02, y=sort(dat$y, dec=T)[2], 
                  xend=1.14, yend=(mean(sort(dat$y, dec=T)[1:2]))-.2)+
-    labs(title = "Legend") +
+    labs(title = "LEGEND") +
     guides(fill=FALSE) +
     theme_hc() +
-    theme(plot.title = element_text(hjust = 0.5,size=19),
+    theme(plot.title = element_text(hjust = 0.5,size=25),
           plot.margin=unit(c(1,0,2,0), "lines"),
           #panel.border = element_rect(colour = "black", fill=NA, size=1),
     ) 
@@ -138,9 +138,9 @@ ppplots<-lapply(names(pre.post)[5:20],function(x){ #20
     stat_summary(fun.y="mean", geom="point", size=4, shape=4)+
     labs(x=NULL,y=NULL,title = x) +
     guides(fill=FALSE) +
-    theme(axis.text.x = element_text(face="bold",  size=20),
-          axis.text.y = element_text(face="bold",  size=20),
-          plot.title = element_text(hjust = 0.5,size=17),
+    theme(axis.text.x = element_text(face="bold",  size=25),
+          axis.text.y = element_text(face="bold",  size=25),
+          plot.title = element_text(hjust = 0.5,size=26),
           plot.margin=unit(c(1,0,2,0), "lines")) +
     theme_hc()
   })
@@ -150,26 +150,51 @@ ppplots<-lapply(names(pre.post)[5:20],function(x){ #20
 #This next part sets the y axis values to better show the data
 #Asterixs manually added for significant comparisons
 ppplots[[1]]$coordinates$limits$y=c(0,20) #Dass Depression
-ppplots[[1]]<-ppplots[[1]]+annotate("text", x = 1.5, y = 17, label = "*",colour = "red", size = 16)
+ppplots[[1]]<-ppplots[[1]]+annotate("text", x = 1.5, y = 15, label = "*",colour = "red", size = 28)+ ggtitle("DASS\nDepression")
 ppplots[[1]]
-ppplots[[2]]$coordinates$limits$y=c(0,20) #DASS Anxiety
-ppplots[[3]]$coordinates$limits$y=c(0,20) #DASS Stress
-ppplots[[3]]<-ppplots[[3]]+annotate("text", x = 1.5, y = 17, label = "*",colour = "red", size = 16)
-ppplots[[4]]$coordinates$limits$y=c(1,6)  #MWQ
-ppplots[[4]]<-ppplots[[4]]+annotate("text", x = 1.5, y = 5.3, label = "*",colour = "red", size = 16)
-ppplots[[5]]$coordinates$limits$y=c(-4,6) #QOLI
-ppplots[[6]]$coordinates$limits$y=c(0,6)  #MAAS
-ppplots[[8]]$coordinates$limits$y=c(1.8,4.4) #Extraversion
-ppplots[[9]]$coordinates$limits$y=c(1.8,4.4) #Agreableness
-ppplots[[10]]$coordinates$limits$y=c(1.8,4.4)#Conscientiousness
-ppplots[[11]]$coordinates$limits$y=c(1.8,4.4)#Neuroticism
-ppplots[[11]]<-ppplots[[11]]+annotate("text", x = 1.5, y = 4.2, label = "*",colour = "red", size = 16)
-ppplots[[12]]$coordinates$limits$y=c(1.8,4.4)#Openness
-ppplots[[13]]$coordinates$limits$y=c(7,34) #TAS
-ppplots[[13]]<-ppplots[[13]]+annotate("text", x = 1.5, y = 32, label = "*",colour = "red", size = 16)
-ppplots[[15]]$coordinates$limits$y=c(10,25) #Involuntariness
-ppplots[[16]]$coordinates$limits$y=c(10,25) #Effortlessness
 
+ppplots[[2]]$coordinates$limits$y=c(0,20) #DASS Anxiety
+ppplots[[2]]<-ppplots[[2]]+ ggtitle("DASS\nAnxiety")
+
+ppplots[[3]]$coordinates$limits$y=c(0,20) #DASS Stress
+ppplots[[3]]<-ppplots[[3]]+annotate("text", x = 1.5, y = 15, label = "*",colour = "red", size = 28)+ ggtitle("DASS\nStress")
+
+ppplots[[4]]$coordinates$limits$y=c(1,6)  #MWQ
+ppplots[[4]]<-ppplots[[4]]+annotate("text", x = 1.5, y = 4.7, label = "*",colour = "red", size = 28)+ ggtitle("MWQ\nMind Wandering")
+
+ppplots[[5]]$coordinates$limits$y=c(-4,6) #QOLI
+ppplots[[5]]<-ppplots[[5]]+ ggtitle("QOLI")
+
+ppplots[[6]]$coordinates$limits$y=c(0,6)  #MAAS
+ppplots[[6]]<-ppplots[[6]]+ ggtitle("MAAS\nMindfulness")
+
+ppplots[[7]]<-ppplots[[7]]+ ggtitle("HMS\nMysticism")
+
+ppplots[[8]]$coordinates$limits$y=c(1.8,4.4) #Extraversion
+ppplots[[8]]<-ppplots[[8]]+ ggtitle("M5P\nExtraversion")
+
+ppplots[[9]]$coordinates$limits$y=c(1.8,4.4) #Agreableness
+ppplots[[9]]<-ppplots[[9]]+ ggtitle("M5P\nAgreeableness")
+
+ppplots[[10]]$coordinates$limits$y=c(1.8,4.4)#Conscientiousness
+ppplots[[10]]<-ppplots[[10]]+ ggtitle("M5P\nConscientiousness")
+
+ppplots[[11]]$coordinates$limits$y=c(1.8,4.4)#Neuroticism
+ppplots[[11]]<-ppplots[[11]]+annotate("text", x = 1.5, y = 3.8, label = "*",colour = "red", size = 28)+ ggtitle("M5P\nNeuroticism")
+
+ppplots[[12]]$coordinates$limits$y=c(1.8,4.4)#Openness
+ppplots[[12]]<-ppplots[[12]]+ ggtitle("M5P\nOpenness")
+
+ppplots[[13]]$coordinates$limits$y=c(7,34) #TAS
+ppplots[[13]]<-ppplots[[13]]+annotate("text", x = 1.5, y = 29, label = "*",colour = "red", size = 28)+ ggtitle("TAS\nAbsorption")
+
+ppplots[[14]]<-ppplots[[14]]+ ggtitle("CPS\nCreativity")
+
+ppplots[[15]]$coordinates$limits$y=c(10,25) #Involuntariness
+ppplots[[15]]<-ppplots[[15]]+ ggtitle("SOARS\nInvolunatriness")
+
+ppplots[[16]]$coordinates$limits$y=c(10,25) #Effortlessness
+ppplots[[16]]<-ppplots[[16]]+ ggtitle("SOARS\nEffortlessness")
 
 # To make this work (using the "legend" box to fill in the blank bit), you have to use a nested
 # ggarrange:
