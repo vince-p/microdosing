@@ -38,13 +38,15 @@ makeplot<-function(data,graphtitle){
     geom_errorbar(aes(ymin = lower.CL, ymax = upper.CL), width = 0.2, alpha=.6, size=1.2, color=c) +
     geom_point(aes(y = lsmean), size = 3, shape = 22, color=c, fill=c) + # darkred / pink
     ylim(2.8, 4) +
-    annotate("text", x = 2, y = 3.9, label = "*",colour = "red", size = 14) + #comparison bars would be better
+    geom_path(x=c(1,1,2,2),y=c(3.94,3.98,3.98,3.94),size=1.0)+
+    annotate("text", x = 1.5, y = 3.95, label = "*", size = 14)+#,colour = "red") + #comparison bars would be better
+    scale_x_discrete(labels=c("Base", "Dose\nDay", "Dose\n+1","Dose\n+2"))+
     labs(x = NULL, y = "Rating",
          title = graphtitle) +
-    theme(axis.text.x = element_text(face="bold",  size=18),
-          axis.title.y =element_text(face="plain",  size=16),
-          axis.text.y = element_text(face="plain",  size=18),
-          plot.title = element_text(hjust = 0.5, size=22),
+    theme(axis.text.x = element_text(face="bold",  size=19),
+          axis.title.y =element_text(face="plain",  size=21),
+          axis.text.y = element_text(face="bold",  size=21),
+          plot.title = element_text(hjust = 0.5, size=24),
           plot.margin=unit(c(1,0,2,0), "lines")) +
     theme_hc()
    
@@ -114,9 +116,16 @@ daily.plots<-lapply(varlist, function(x) {
   makeplot(data=tmp,graphtitle=x)
 })
 
+daily.plots[[6]] <-
+  daily.plots[[6]] + geom_path(x=c(1,1,2,2),y=c(25,26,26,25))+
+  #geom_path(x=c(2,2,3,3),y=c(37,38,38,37))+
+  geom_path(x=c(1,1,4,4),y=c(3.76,3.8,3.8,3.76),size=1.0)+
+  annotate("text", x = 2.5, y = 3.775, label = "*", size = 14)  #comparison bars would be better
+
+
 #arrange in panels: http://www.sthda.com/english/articles/24-ggpubr-publication-ready-plots/81-ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page/
 # *** is there a better way to do this subsetting?
 ggarrange(daily.plots[[1]], daily.plots[[2]], daily.plots[[3]], daily.plots[[4]], daily.plots[[5]], daily.plots[[6]], daily.plots[[7]], 
           #labels = c("A", "B"),
-          ncol = 2, nrow = 4)
+          ncol = 4, nrow = 2)
 
