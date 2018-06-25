@@ -29,7 +29,8 @@ dailydata<-dailydata %>% select(id, type,order(colnames(.))) # sort columns alph
 # z<-(cont.lsm<-contrast(model.lsm, "trt.vs.ctrl1", adjust="holm")) #trtvsctrl1 compares all other values to first value (Baseline).
 # plot(model.lsm, horiz=F)
 # tt<-summary(model.lme)
-
+axissize=14
+titlesize=17
 
 makeplot<-function(data,graphtitle){
   c<-"steelblue"
@@ -39,14 +40,14 @@ makeplot<-function(data,graphtitle){
     geom_point(aes(y = lsmean), size = 3, shape = 22, color=c, fill=c) + # darkred / pink
     ylim(2.8, 4) +
     geom_path(x=c(1,1,2,2),y=c(3.94,3.98,3.98,3.94),size=1.0)+
-    annotate("text", x = 1.5, y = 3.95, label = "*", size = 14)+#,colour = "red") + #comparison bars would be better
+    annotate("text", x = 1.5, y = 3.95, label = "*", size = 14)+
     scale_x_discrete(labels=c("Base", "Dose\nDay", "Dose\n+1","Dose\n+2"))+
     labs(x = NULL, y = "Rating",
          title = graphtitle) +
-    theme(axis.text.x = element_text(face="bold",  size=19),
-          axis.title.y =element_text(face="plain",  size=21),
-          axis.text.y = element_text(face="bold",  size=21),
-          plot.title = element_text(hjust = 0.5, size=24),
+    theme(axis.text.x = element_text(face="bold",  size=axissize),
+          axis.title.y =element_text(face="plain",  size=axissize),
+          axis.text.y = element_text(face="bold",  size=axissize),
+          plot.title = element_text(hjust = 0.5, size=titlesize),
           plot.margin=unit(c(1,0,2,0), "lines")) +
     theme_hc()
    
