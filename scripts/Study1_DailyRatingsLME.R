@@ -13,7 +13,6 @@ p_load_gh("vince-p/vtools")
 dailydata<-read_csv("cleandata/dailydata.csv") #Load daily summary data
 dailydata<-dailydata[!dailydata$id %in% read_csv("cleandata/hidose.csv")$id,] ## RUN THIS LINE TO EXCLUDE HIGH DOSE DAILY REPORTS
 
-
 dailydata$type[dailydata$type=="dayother"]<-"Baseline"
 dailydata$type[dailydata$type=="day0"]<-"DoseDay"
 dailydata$type[dailydata$type=="day1"]<-"Day+1"
