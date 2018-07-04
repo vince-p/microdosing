@@ -10,7 +10,7 @@
 if (!require("pacman")) install.packages("pacman")
 library(pacman)
 p_load(tidyverse, psych, weights, scales)
-p_load_current_gh("vince-p/vtools")
+p_load_gh("vince-p/vtools")
 
 expect.totals<-read_csv("cleandata/expect_totals.csv")
 
