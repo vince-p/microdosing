@@ -7,7 +7,7 @@
 
 if (!require("pacman")) install.packages("pacman")
 library(pacman)
-p_load(psych,lsmeans,nlme,ggpubr,ggthemes,tidyverse)
+p_load(psych,lsmeans,nlme,ggpubr,ggthemes,tidyverse,MuMIn)
 p_load_gh("vince-p/vtools")
 
 dailydata<-read_csv("cleandata/dailydata.csv") #Load daily summary data
@@ -22,12 +22,14 @@ dailydata$type <- factor(dailydata$type, levels=c("Baseline","DoseDay", "Day+1",
 dailydata<-dailydata %>% select(id, type,order(colnames(.))) # sort columns alphabetically
 
 # ## WORKING FOR GENERATING A LME FOR A SINGLE RATING ===================
-# model.lme <- lme(d~type,random=~1|id,data=dailydata,method="ML",na.action = na.omit) #basic model without corrections
-# summary(model.lme)
-# model.lsm = lsmeans(model.lme, "type") # generates an lsmobj with the appropriate means for each condition
-# z<-(cont.lsm<-contrast(model.lsm, "trt.vs.ctrl1", adjust="holm")) #trtvsctrl1 compares all other values to first value (Baseline).
-# plot(model.lsm, horiz=F)
-# tt<-summary(model.lme)
+ # model.lme <- lme(d.connected~type,random=~1|id,data=dailydata,method="ML",na.action = na.omit) #basic model without corrections
+ # summary(model.lme)
+ # r.squaredGLMM(model.lme)
+ # model.lsm = lsmeans(model.lme, "type") # generates an lsmobj with the appropriate means for each condition
+ # z<-(cont.lsm<-contrast(model.lsm, "trt.vs.ctrl1", adjust="holm")) #trtvsctrl1 compares all other values to first value (Baseline).
+
+ plot(model.lsm, horiz=F)
+tt<-summary(model.lme)
 axissize=14
 titlesize=17
 
@@ -92,7 +94,9 @@ daily.modelsummary<-lapply(varlist, function(x) {
              p=pv(temp.contrasts[2,6]),
              Day2_b=as.numeric(temp.summary$tTable["typeDay+2",c("Value")]),
              T=as.numeric(temp.summary$tTable["typeDay+2",c("t-value")]),
-             p=pv(temp.contrasts[3,6])
+             p=pv(temp.contrasts[3,6]),
+             Rc=as.character(paste0(r.squaredGLMM(dailymodel)[2] %>% formatC(digits = 3, format = "f")))
+             #Rc=r.squaredGLMM(dailymodel)[2] #only displays 2dp... dont know why
              )
 })
 round_df(do.call(rbind,daily.modelsummary)) # this line converts output from loop above to a useable dataframe. 

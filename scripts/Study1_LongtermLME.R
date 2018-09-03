@@ -55,7 +55,8 @@ pp.uncorrected<- lapply(names(pre.post[5:20]), function(k) {
 
 #generate corrected table for manuscript table 4
 pp.corrected<- lapply(names(pre.post[5:20]), function(k) {
-  temp.summary<-summary(lme(eval(substitute(q ~ Time*experience+Time*maxdoses.c, list(q = as.name(k)))), random = ~1|id, method="ML",data = pre.post,na.action=na.exclude),digits=3)
+  temp.model<-lme(eval(substitute(q ~ Time*experience+Time*maxdoses.c, list(q = as.name(k)))), random = ~1|id, method="ML",data = pre.post,na.action=na.exclude)
+  temp.summary<-summary(temp.model,digits=3)
   temp.corrected<-data.frame(k,Intercept=as.numeric(temp.summary$tTable["(Intercept)",c("Value")]),
              var="Time",b=as.numeric(temp.summary$tTable["Time1",c("Value")]),
              T=as.numeric(temp.summary$tTable["Time1",c("t-value")]),
@@ -65,7 +66,8 @@ pp.corrected<- lapply(names(pre.post[5:20]), function(k) {
              P2=pv(temp.summary$tTable["Time1:experience1",c("p-value")],"holm",3),
               var3="TimeXDoses",b3=temp.summary$tTable["Time1:maxdoses.c",c("Value")],
              T3=temp.summary$tTable["Time1:maxdoses.c",c("t-value")],
-            P3=pv(temp.summary$tTable["Time1:maxdoses.c",c("p-value")],"holm",3))
+            P3=pv(temp.summary$tTable["Time1:maxdoses.c",c("p-value")],"holm",3),
+            Rc=8)
 }) 
 
 pp.uncorrected<-do.call(rbind,pp.uncorrected)
@@ -74,6 +76,15 @@ pp.corrected<-do.call(rbind,pp.corrected) # this mysterious line transforms lapp
 round_df(pp.descriptives,1)
 round_df(pp.uncorrected,2)
 round_df(pp.corrected,2)
+
+# Print Rc values for each model
+# Code from https://stackoverflow.com/questions/26357429/how-to-use-substitute-to-loop-lme-functions-from-nlme-package
+lapply(names(pre.post[5:20]), function(r) {
+  f <- formula(paste(r, "Time*experience+Time*maxdoses.c", sep = "~"))
+  m <- lme(fixed = f, random = ~ 1 | id, data = pre.post,na.action=na.exclude)
+  m$call$fixed <- f
+  paste(m$terms[[2]], r(r.squaredGLMM(m)[2],3))
+  })
 
 
 
