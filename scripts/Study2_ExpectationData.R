@@ -1,10 +1,8 @@
 # Microdosing Experiences
-# 24 Mar 18
 # Vince Polito
 # vince.polito@mq.edu.au
 # 
 # This script relies on csv files in the cleandata subfolder
-# This script runs analyses for Study2
 # The final part will only work if run after LongtemLME script
 
 if (!require("pacman")) install.packages("pacman")
@@ -24,8 +22,9 @@ weights<-dplyr::select(expect.totals,experience,ends_with("_w"))
 wt<-function(var1,var2) # Temporary function to take two variables (directions and weights) and calculated weighted mean and t score
 {
   x<-wtd.mean(x=var1,weight=var2) #calculate the weighted mean
-  z<-wtd.t.test(x=var1,weight=var2)$coefficients #calculate the weighted t-test
-  c(x,z) #output both sets of values HOW TO SET COLNAME FOR FIRST COL HERE??
+  z<-wtd.t.test(x=var1,weight=var2) #calculate the weighted t-test
+  d<-ES.t.one(m=z$additional[2],se=z$additional[4],n=z$coefficients[2]+1,mu=0)$d
+  c(x,z$coefficients,d) #output the weighted mean, the weighted t-test results, the d score for each test
 }
 #wt(expect.totals$DASS_Anxiety,expect.totals$DASS_Anxiety_w) #This line is to test the function
 
@@ -40,7 +39,7 @@ round_df(cbind(naive,exp[2:3]))
 
 
 #Test association between naive and experienced particpants
-cor.test(x=exp$rank, y=naive$rank, method = 'kendall') # is this the best way to test if the naive and exp participants differ?
+cor.test(x=exp$rank, y=naive$rank, method = 'kendall')
 # Output: tau=.934, p <.001
 
 expect.results<-t(mapply(wt,direction[,-1],weights[,-1])) # This outputs a matrix so col labels are weird. Not sure why this must be done this way.
@@ -49,11 +48,11 @@ expect.results<-tibble(variable=rownames(expect.results),
                        t=expect.results[,2],
                        df=expect.results[,3],
                        p=pv(expect.results[,4]),
+                       d=expect.results[,5],
                        rank=rank(-(as.data.frame(expect.results[,1]))),
                        checkvar=pp.uncorrected$k,
                        checkT=pp.uncorrected$T,
                        rankStudy1=rank((pp.uncorrected$T))) #make tibble with ranks
-
-round_df(expect.results)
+expect.neat<-round_df(expect.results)
 
 cor.test(x=expect.results$rank, y=expect.results$rankStudy1, method = 'kendall') 
