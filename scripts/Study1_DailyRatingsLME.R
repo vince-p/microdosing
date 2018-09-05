@@ -11,7 +11,6 @@ p_load(psych,lsmeans,nlme,ggpubr,ggthemes,tidyverse,MuMIn)
 p_load_gh("vince-p/vtools")
 
 dailydata<-read_csv("cleandata/dailydata.csv") #Load daily summary data
-dailydata<-dailydata[!dailydata$id %in% read_csv("cleandata/hidose.csv")$id,] ## RUN THIS LINE TO EXCLUDE HIGH DOSE DAILY REPORTS
 
 dailydata$type[dailydata$type=="dayother"]<-"Baseline"
 dailydata$type[dailydata$type=="day0"]<-"DoseDay"
@@ -19,7 +18,8 @@ dailydata$type[dailydata$type=="day1"]<-"Day+1"
 dailydata$type[dailydata$type=="day2"]<-"Day+2"
 
 dailydata$type <- factor(dailydata$type, levels=c("Baseline","DoseDay", "Day+1", "Day+2"))
-dailydata<-dailydata %>% select(id, type,order(colnames(.))) # sort columns alphabetically
+
+dailydata <- dailydata %>% dplyr::select(id, type,order(colnames(.))) # sort columns alphabetically
 
 # ## WORKING FOR GENERATING A LME FOR A SINGLE RATING ===================
  # model.lme <- lme(d.connected~type,random=~1|id,data=dailydata,method="ML",na.action = na.omit) #basic model without corrections
