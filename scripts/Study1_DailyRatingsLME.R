@@ -120,11 +120,19 @@ daily.plots<-lapply(varlist, function(x) {
   makeplot(data=tmp,graphtitle=x)
 })
 
-daily.plots[[6]] <-
+daily.plots[[6]] <- #Productive significance bar
   daily.plots[[6]] + geom_path(x=c(1,1,2,2),y=c(25,26,26,25))+
   #geom_path(x=c(2,2,3,3),y=c(37,38,38,37))+
   geom_path(x=c(1,1,4,4),y=c(3.76,3.8,3.8,3.76),size=1.0)+
-  annotate("text", x = 2.5, y = 3.775, label = "*", size = 14)  #comparison bars would be better
+  annotate("text", x = 2.5, y = 3.775, label = "*", size = 14)  
+
+daily.plots[[4]] <- #Focus significance bar
+  daily.plots[[4]] + geom_path(x=c(1,1,2,2),y=c(25,26,26,25))+
+  #geom_path(x=c(2,2,3,3),y=c(37,38,38,37))+
+  geom_path(x=c(1,1,4,4),y=c(3.76,3.8,3.8,3.76),size=1.0)+
+  annotate("text", x = 2.5, y = 3.775, label = "*", size = 14)  
+
+
 
 
 #arrange in panels: http://www.sthda.com/english/articles/24-ggpubr-publication-ready-plots/81-ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page/
