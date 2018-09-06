@@ -18,7 +18,6 @@ vc<-function(lmemodel,ind){
   }
 
 dailydata<-read.csv("cleandata/dailydata.csv") #Load daily summary data
-#dailydata<-dailydata[!dailydata$id %in% read_csv("cleandata/hidose.csv")$id,] ## RUN THIS LINE TO EXCLUDE HIGH DOSES (SEE PAGE 17)
 # This section calls the function for each daily rating
 vc(lme(d.connected~type,random=~1|id,data=dailydata,method="ML",na.action = na.omit),ind=dailydata$type)
 vc(lme(d.contemplat~type,random=~1|id,data=dailydata,method="ML",na.action = na.omit),ind=dailydata$type)
