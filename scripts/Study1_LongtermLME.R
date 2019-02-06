@@ -1,6 +1,9 @@
 # Microdosing Experiences
 # Vince Polito
 # vince.polito@mq.edu.au
+#
+## I learnt R while creating these scripts so I'm sure there are better ways to do some things.
+# If you notice any errors or have suggestions for improvements, please get in touch.
 # 
 # This script relies on csv files in the cleandata subfolder
 # This script performs LME analysis and generates plots for longterm data in Study1.

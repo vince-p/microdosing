@@ -1,5 +1,8 @@
 # Microdosing Experiences
 # Vince Polito
+# 
+# I learnt R while creating these scripts so I'm sure there are better ways to do some things.
+# If you notice any errors or have suggestions for improvements, please get in touch.
 # vince.polito@mq.edu.au
 # 
 # This script relies on csv files in the cleandata subfolder
@@ -7,7 +10,7 @@
 
 if (!require("pacman")) install.packages("pacman")
 library(pacman)
-p_load(tidyverse, psych, weights, scales)
+p_load(tidyverse, psych, weights, scales, powerAnalysis)
 p_load_gh("vince-p/vtools")
 
 expect.totals<-read_csv("cleandata/expect_totals.csv")
@@ -24,7 +27,8 @@ wt<-function(var1,var2) # Temporary function to take two variables (directions a
   x<-wtd.mean(x=var1,weight=var2) #calculate the weighted mean
   z<-wtd.t.test(x=var1,weight=var2) #calculate the weighted t-test
   d<-ES.t.one(m=z$additional[2],se=z$additional[4],n=z$coefficients[2]+1,mu=0)$d
-  c(x,z$coefficients,d) #output the weighted mean, the weighted t-test results, the d score for each test
+  v<-wtd.var(x=var1,weight=var2)
+  c(x,z$coefficients,d,v) #output the weighted mean, the weighted t-test results, the d score for each test
 }
 #wt(expect.totals$DASS_Anxiety,expect.totals$DASS_Anxiety_w) #This line is to test the function
 
@@ -45,6 +49,7 @@ cor.test(x=exp$rank, y=naive$rank, method = 'kendall')
 expect.results<-t(mapply(wt,direction[,-1],weights[,-1])) # This outputs a matrix so col labels are weird. Not sure why this must be done this way.
 expect.results<-tibble(variable=rownames(expect.results),
                        wtdmean=expect.results[,1],
+                       wtvar=expect.results[,6],
                        t=expect.results[,2],
                        df=expect.results[,3],
                        p=pv(expect.results[,4]),
